@@ -65,7 +65,7 @@ a > img {
   width: 100%;
   background-color: black;
   height: 100%;
-  background-image: url("../src/resources/images/bg.jpg");
+  background-image: url("../images/bg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: none;
@@ -225,7 +225,7 @@ margin:3px;
 
 }
 #projectone {
-background-image: url("../src/resources/images/p1.JPG");
+background-image: url("../images/p1.jpg");
 color:white;
 text-align: center;
 align-items: center;
@@ -242,19 +242,19 @@ position: relative;
 
 }
 #projecttwo {
-  background-image: url("../src/resources/images/p2.jpg");
+  background-image: url("../images/p2.jpg");
 }
 #projectthree {
-  background-image: url("../src/resources/images/p3.JPG");
+  background-image: url("../images/p3.jpg");
 }
 #projectfour {
-background-image: url("../src/resources/images/p4.jpg");
+background-image: url("../images/p4.jpg");
 }
 #projectfive {
-  background-image: url("../src/resources/images/p5.jpg");
+  background-image: url("../images/p5.jpg");
 }
 #projectsix {
-  background-image: url("../src/resources/images/p6.jpg");
+  background-image: url("../images/p6.jpg");
 }
 
 /* Third */
@@ -319,7 +319,7 @@ margin:auto;
   }
 
   #mainsection {
-    background-image: url("../src/resources/images/bg2.jpg");
+    background-image: url("../images/bg2.jpg");
     background-size: cover;
 
     background-repeat: no-repeat;
