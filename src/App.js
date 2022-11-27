@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import ig from "../src/resources/icons/ig.png";
 import lkdn from "../src/resources/icons/lkdn.png";
+import fb from "../src/resources/icons/fb.png";
+import mail  from "../src/resources/icons/mail.png";
 
 function App() {
   return (
@@ -166,13 +168,13 @@ function App() {
        <p class="smalltext"> I want to avoid subjective pissing-matches, and favor open-minded collaborators where egos are out of the equation. If that all sounds about right, then lets for sure chat about how we can work together.
 </p>
 <div id="iconsfooter">
- <a class="footer"><img class="icon" src="./resources/icons/ig.png" />
+ <a class="footer"><img class="icon" src={ig} />
   
 
 </a>
-  <a class="footer"><img class="icon" src="./resources/icons/fb.png" /></a>
-   <a class="footer"><img class="icon" src="./resources/icons/mail.png" /></a>
-    <a class="footer"><img class="icon" src="./resources/icons/lkdn.png" /></a>
+  <a class="footer"><img class="icon" src={fb} /></a>
+   <a class="footer"><img class="icon" src={mail} /></a>
+    <a class="footer"><img class="icon" src={lkdn} /></a>
 </div>
 <p class="footertext">Iuliia Rusanova ©2022</p>
 
