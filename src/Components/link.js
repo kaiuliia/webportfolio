@@ -1,7 +1,7 @@
 import React from "react";
-import "./button.css";
+import "./link.css";
 
-export class Button extends React.Component {
+export class Link extends React.Component {
   constructor(props) {
     super(props);
     this.openProject=this.openProject.bind(this);
@@ -14,9 +14,10 @@ openProject() {
   };
 
 
+
   render() {
     return (
-      <button onClick={this.openProject}>{this.props.btName}</button>
+      <a onClick={this.openProject}>{this.props.name}</a>
     );
   }
 }

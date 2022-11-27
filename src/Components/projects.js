@@ -9,15 +9,16 @@ export class Projects extends React.Component {
   }
 
   openProject() {
-    window.open(this.props.link);
+    if (this.props.isEmpty) {return} else
+    {window.open(this.props.link)};
   }
 
   render() {
     return (
-      <div id="projectone" class="project" onClick={this.openProject}>
-        <a class="projectname" onClick={this.openProject}>
+      <div id="project" class="project" onClick={this.openProject}>
+        <p class="projectname" onClick={this.openProject}>
           {this.props.name}
-        </a>
+        </p>
         
       </div>
     );

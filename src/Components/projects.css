@@ -3,14 +3,12 @@ width:300px;
 height:250px;
 margin:3px;}
 
-.project:hover {
-  background-color: rgba(108, 65, 233, .7);
-}
 
 
 
-#projectone {
-background-color: gray;
+
+#project {
+background-color: rgb(42, 42, 42);
 color:white;
 text-align: center;
 align-items: center;
@@ -19,6 +17,8 @@ cursor: pointer;
 
 
 }
+
+
 .projectname  {
   position: relative;
   top:50%;
@@ -30,6 +30,7 @@ cursor: pointer;
 
 }
 
-#projectone:hover {
-   background-color: rgba(108, 65, 233, .7); 
+#project:hover {
+   background-color: rgb(4, 71, 71);
 }
+

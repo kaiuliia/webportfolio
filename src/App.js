@@ -5,7 +5,8 @@ import lkdn from "../src/resources/icons/lkdn.png";
 import fb from "../src/resources/icons/fb.png";
 import mail  from "../src/resources/icons/mail.png";
 import {Projects} from '../src/Components/projects'
-
+// import {Link} from '../src/Components/link'
+import { HashLink as Link } from "react-router-hash-link";
 
 
 
@@ -33,7 +34,8 @@ function App() {
       <body>
         <div id="body">
           <div id="header">
-            <a class="text">About</a>
+            <Link to="home-page#iconsfooter">Section three</Link>
+            {/* <a class="text">About</a> */}
             <a class="text">Portfolio</a>
             <a class="text">Contact</a>
             <a id="icon1" class="icon">
@@ -141,16 +143,15 @@ function App() {
 
           <h1 class="text">Projects</h1>
           <div id="secondsection">
-            <Projects
-              name={"Jammming"}
-              link={"http://juliajammming.surge.sh"}
-            />
-         
-
             <div id="projecttwo" class="project">
               <Projects
-                name={"The second project is coming"}
+                name={"Jammming"}
+                link={"http://juliajammming.surge.sh"}
               />
+            </div>
+
+            <div id="projecttwo" class="project">
+              <Projects name={"The second project is coming"} isEmpty={true} />
             </div>
 
             {/* <div id="projectthree" class="project">
