@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import ig from "../src/resources/icons/ig.png";
+import lkdn from "../src/resources/icons/lkdn.png";
 
 function App() {
   return (
@@ -30,9 +32,9 @@ function App() {
         <a class="text">About</a>
         <a class="text">Portfolio</a>
         <a class="text">Contact</a>
-        <a class="icon"><img class="icon" src="./resources/icons/ig.png" /></a>
+        <a id='icon1' class="icon"><img class="icon" src={ig} /></a>
         <a class="icon"
-          ><img class="icon" src="./resources/icons/lkdn.png"
+          ><img class="icon" src={lkdn}
         /></a>
       </div>
 
