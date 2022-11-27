@@ -1,0 +1,24 @@
+.project {
+width:300px;
+height:250px;
+margin:3px;
+
+
+}
+#projectone {
+background-image: url("../resources/images/p1.JPG");
+color:white;
+text-align: center;
+align-items: center;
+position: relative;
+
+}
+.projectname  {
+  position: relative;
+  top:50%;
+  margin:0;
+  text-align: center;
+  font-weight: bolder;
+  color:white;
+
+}
