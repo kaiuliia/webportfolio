@@ -1,5 +1,6 @@
 import React from "react";
 import "./projects.css";
+import {Button} from './button'
 
 export class Projects extends React.Component {
   constructor(props) {
@@ -10,7 +11,10 @@ export class Projects extends React.Component {
     return (
       <div id="projectone" class="project">
         <p class="projectname">{this.props.name}</p>
-        <button onClick={}>View</button>
+        <Button
+          btName={"View Project"}
+          link={'http://twitter.com/saigowthamr'}
+        />
       </div>
     );
   }
