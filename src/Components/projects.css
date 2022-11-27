@@ -1,16 +1,22 @@
 .project {
 width:300px;
 height:250px;
-margin:3px;
+margin:3px;}
 
-
+.project:hover {
+  background-color: rgba(108, 65, 233, .7);
 }
+
+
+
 #projectone {
-background-image: url("../resources/images/p1.JPG");
+background-color: gray;
 color:white;
 text-align: center;
 align-items: center;
 position: relative;
+cursor: pointer;
+
 
 }
 .projectname  {
@@ -20,5 +26,10 @@ position: relative;
   text-align: center;
   font-weight: bolder;
   color:white;
+  cursor: pointer;
 
+}
+
+#projectone:hover {
+   background-color: rgba(108, 65, 233, .7); 
 }

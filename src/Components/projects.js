@@ -1,20 +1,24 @@
 import React from "react";
 import "./projects.css";
-import {Button} from './button'
+
 
 export class Projects extends React.Component {
   constructor(props) {
     super(props);
+     this.openProject = this.openProject.bind(this);
+  }
+
+  openProject() {
+    window.open(this.props.link);
   }
 
   render() {
     return (
-      <div id="projectone" class="project">
-        <p class="projectname">{this.props.name}</p>
-        <Button
-          btName={"View Project"}
-          link={'http://twitter.com/saigowthamr'}
-        />
+      <div id="projectone" class="project" onClick={this.openProject}>
+        <a class="projectname" onClick={this.openProject}>
+          {this.props.name}
+        </a>
+        
       </div>
     );
   }

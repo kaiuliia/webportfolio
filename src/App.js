@@ -6,6 +6,9 @@ import fb from "../src/resources/icons/fb.png";
 import mail  from "../src/resources/icons/mail.png";
 import {Projects} from '../src/Components/projects'
 
+
+
+
 function App() {
   return (
     <html>
@@ -138,17 +141,16 @@ function App() {
 
           <h1 class="text">Projects</h1>
           <div id="secondsection">
-
-<Projects name={'Jammming'}/>
-            {/* <div id="projectone" class="project">
-              <p class="projectname">Jammming.</p>
-              <button>
-                View
-              </button>
-            </div> */}
+            <Projects
+              name={"Jammming"}
+              link={"http://juliajammming.surge.sh"}
+            />
+         
 
             <div id="projecttwo" class="project">
-              <p class="projectname">The second project is in progress</p>
+              <Projects
+                name={"The second project is coming"}
+              />
             </div>
 
             {/* <div id="projectthree" class="project">

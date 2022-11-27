@@ -219,21 +219,14 @@ h1:hover {
   justify-content: center;
   flex-wrap: wrap;
 }
-.project {
+/* .project {
 width:300px;
 height:250px;
 margin:3px;
 
 
 }
-#projectone {
-background-image: url("../src/resources/images/p1.JPG");
-color:white;
-text-align: center;
-align-items: center;
-position: relative;
 
-}
 .projectname  {
   position: relative;
   top:50%;
@@ -257,7 +250,7 @@ background-image: url("../src/resources/images/p4.jpg");
 }
 #projectsix {
   background-image: url("../src/resources/images/p6.jpg");
-}
+} */
 
 /* Third */
 
