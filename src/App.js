@@ -34,7 +34,7 @@ function App() {
       <body>
         <div id="body">
           <div id="header">
-            <a class="text" onClick={() => window.location.replace("/#about")}>
+            <a class="text"  onClick={() => window.location.replace("/#about")}>
               About
             </a>
 
