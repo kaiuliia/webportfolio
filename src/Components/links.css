@@ -1,0 +1,31 @@
+#mainsection > .links {
+   position:static; 
+
+  color: rgb(0, 175, 175);
+
+  font-size: 3.5rem;
+
+  font-weight: bolder;
+   padding-left: 5rem; 
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+    line-height: 1;
+  
+   
+}
+
+h1 {
+    
+  
+   transition: color 0.5s linear 0.5s; */
+}
+h1:hover {
+  
+ color:aqua;
+ 
+}
+
+ #link {
+     text-align: left;
+     margin-left: 5rem;
+ }

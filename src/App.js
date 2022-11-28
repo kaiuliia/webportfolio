@@ -6,6 +6,7 @@ import fb from "../src/resources/icons/fb.png";
 import mail  from "../src/resources/icons/mail.png";
 import {Projects} from '../src/Components/projects'
 import { Scale } from "../src/Components/scale";
+import { Links } from "../src/Components/links";
 // import {Link} from '../src/Components/link'
 // import { HashLink as Link } from "react-router-hash-link";
 
@@ -75,18 +76,12 @@ function App() {
           <div id="mainsection" class="banner">
             <div class="links">
               <div class="firstword">
-                <a class="old">
-                  <h1>Hello</h1>
-                </a>
+                <Links name={"Hello"} alt={"About"} />
               </div>
 
-              <a class="old">
-                <h1>I am</h1>
-              </a>
+              <Links name={"I am"} alt={"Projects"} />
 
-              <a class="old">
-                <h1>Iuliia</h1>
-              </a>
+              <Links name={"Julia"} alt={"Contacts"} />
             </div>
           </div>
 
@@ -117,62 +112,6 @@ function App() {
               <Scale name={"Node.js"} percent={"20%"} />
               <Scale name={"React"} percent={"65%"} />
             </div>
-            {/* 
-              <div class="wholescale">
-                <div class="fillscale">
-                  <div class="namescale">
-                    <p>Css</p>
-                  </div>
-                </div>
-                <div class="percent">
-                  <p>90%</p>
-                </div>
-              </div>
-
-              <div class="wholescale">
-                <div class="fillscale">
-                  <div class="namescale">
-                    <p>HTML</p>
-                  </div>
-                </div>
-                <div class="percent">
-                  <p>90%</p>
-                </div>
-              </div>
-
-              <div class="wholescale">
-                <div class="fillscale">
-                  <div class="namescale">
-                    <p>Java Script</p>
-                  </div>
-                </div>
-                <div class="percent">
-                  <p>90%</p>
-                </div>
-              </div>
-
-              <div class="wholescale">
-                <div class="fillscale">
-                  <div class="namescale">
-                    <p>Node.js</p>
-                  </div>
-                </div>
-                <div class="percent">
-                  <p>90%</p>
-                </div>
-              </div>
-
-              <div class="wholescale">
-                <div class="fillscale">
-                  <div class="namescale">
-                    <p>React</p>
-                  </div>
-                </div>
-                <div class="percent">
-                  <p>90%</p>
-                </div>
-              </div>
-            </div> */}
           </div>
 
           <h1 class="text">Projects</h1>
