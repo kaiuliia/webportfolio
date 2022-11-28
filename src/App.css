@@ -37,6 +37,7 @@ text-align: justify;
 
 #header > a {
   margin-left: 10px;
+color:white;
 
   text-align: center;
   margin-block-end: 1.5rem;
@@ -44,7 +45,7 @@ text-align: justify;
   margin-inline-start: 2rem;
   margin-inline-end: 2rem;
   cursor:pointer;
-
+text-decoration:none;
 }
 
 

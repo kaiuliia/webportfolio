@@ -19,7 +19,8 @@ export class Links extends React.Component {
   }
 
   openLink() {
-    window.location.replace(this.props.link);
+    window.location.replace(this.props.link)
+  
   }
 
   render() {

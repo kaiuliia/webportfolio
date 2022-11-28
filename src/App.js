@@ -45,7 +45,7 @@ function App() {
             </a>
             <a
               class="text"
-              onClick={() => window.location.replace("/#iconsfooter")}
+              href="mailto:karjuale@gmail.com"
             >
               Contact
             </a>
