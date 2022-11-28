@@ -15,9 +15,7 @@
 }
 
 h1 {
-    
-  
-   transition: color 0.5s linear 0.5s; */
+   transition: color 0.1s linear 0.1s;
 }
 h1:hover {
   
@@ -28,4 +26,6 @@ h1:hover {
  #link {
      text-align: left;
      margin-left: 5rem;
+      transition: 1s;
+      cursor: pointer;
  }

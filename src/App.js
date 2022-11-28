@@ -76,12 +76,24 @@ function App() {
           <div id="mainsection" class="banner">
             <div class="links">
               <div class="firstword">
-                <Links name={"Hello"} alt={"About"} />
+                <Links
+                  name={"Hello"}
+                  alt={"About"}
+                  link={"/#about"}
+                />
               </div>
 
-              <Links name={"I am"} alt={"Projects"} />
+              <Links
+                name={"I am"}
+                alt={"Projects"}
+                link={"/#about"}
+              />
 
-              <Links name={"Julia"} alt={"Contacts"} />
+              <Links
+                name={"Julia"}
+                alt={"Contacts"}
+                link={"/#iconsfooter"}
+              />
             </div>
           </div>
 

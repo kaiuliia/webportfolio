@@ -19,7 +19,7 @@ export class Links extends React.Component {
   }
 
   openLink() {
-    window.open(this.props.link);
+    window.location.replace(this.props.link);
   }
 
   render() {
@@ -29,6 +29,7 @@ export class Links extends React.Component {
         class="old"
         onMouseEnter={this.changeText}
         onMouseLeave={this.changeBack}
+        onClick={this.openLink}
       >
         <h1 id="link">{this.state.text}</h1>
       </a>
