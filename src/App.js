@@ -5,6 +5,7 @@ import lkdn from "../src/resources/icons/lkdn.png";
 import fb from "../src/resources/icons/fb.png";
 import mail  from "../src/resources/icons/mail.png";
 import {Projects} from '../src/Components/projects'
+import { Scale } from "../src/Components/scale";
 // import {Link} from '../src/Components/link'
 // import { HashLink as Link } from "react-router-hash-link";
 
@@ -34,7 +35,7 @@ function App() {
       <body>
         <div id="body">
           <div id="header">
-            <a class="text"  onClick={() => window.location.replace("/#about")}>
+            <a class="text" onClick={() => window.location.replace("/#about")}>
               About
             </a>
 
@@ -109,8 +110,14 @@ function App() {
                 Procreate.
               </p>
             </div>
-
             <div id="scale" class="scale">
+              <Scale name={"HTML"} percent={"85%"} />
+              <Scale name={"CSS"} percent={"85%"} />
+              <Scale name={"Java Script"} percent={"65%"} />
+              <Scale name={"Node.js"} percent={"20%"} />
+              <Scale name={"React"} percent={"65%"} />
+            </div>
+            {/* 
               <div class="wholescale">
                 <div class="fillscale">
                   <div class="namescale">
@@ -165,7 +172,7 @@ function App() {
                   <p>90%</p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <h1 class="text">Projects</h1>

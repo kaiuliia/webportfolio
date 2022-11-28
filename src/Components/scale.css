@@ -1,0 +1,61 @@
+#scale {
+  width: 50%;
+
+  background-color: black;
+  height: auto;
+  margin: 20px;
+}
+
+.wholescale {
+  background-color: rgb(203, 203, 203);
+  height: 22px;
+  position: relative;
+  width: 90%;
+  max-width: 90%;
+  left: 5%;
+  margin-bottom: 20px;
+  font-size: 0.7rem;
+  color: white;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.fillscale {
+  position: relative;
+
+  background-color: rgb(0, 175, 175);
+  /* width: 70%; */
+  height: 22px;
+  margin: 0;
+ 
+}
+.namescale {
+  position: relative;
+  margin: 0;
+  background-color: rgb(9, 124, 124);
+  width: 85px;
+  height: 22px;
+  
+}
+
+.namescale > p {
+  margin: 0;
+  text-align: center;
+  padding: 0.3rem;
+}
+
+.percent {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: rgb(203, 203, 203);
+  width: 70px;
+  height: 22px;
+}
+
+.percent > p {
+  margin: 0;
+  margin-right: 0.5rem;
+  text-align: end;
+  padding: 0.2rem;
+}
