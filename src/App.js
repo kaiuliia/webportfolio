@@ -34,15 +34,40 @@ function App() {
       <body>
         <div id="body">
           <div id="header">
-          
-            <a class="text">About</a> 
-            <a class="text">Portfolio</a>
-            <a class="text">Contact</a>
+            <a class="text" onClick={() => window.location.replace("/#about")}>
+              About
+            </a>
+
+            <a class="text" onClick={() => window.location.replace("/#about")}>
+              Portfolio
+            </a>
+            <a
+              class="text"
+              onClick={() => window.location.replace("/#iconsfooter")}
+            >
+              Contact
+            </a>
             <a id="icon1" class="icon">
-              <img class="icon" src={ig} />
+              <img
+                class="icon"
+                src={ig}
+                onClick={() =>
+                  window.open(
+                    "https://instagram.com/yuliya.rusanova?igshid=YmMyMTA2M2Y="
+                  )
+                }
+              />
             </a>
             <a class="icon">
-              <img class="icon" src={lkdn} />
+              <img
+                class="icon"
+                src={lkdn}
+                onClick={() =>
+                  window.open(
+                    "https://www.linkedin.com/in/yulia-rusanova-627280189/"
+                  )
+                }
+              />
             </a>
           </div>
 
@@ -64,7 +89,9 @@ function App() {
             </div>
           </div>
 
-          <h1 class="text">About</h1>
+          <h1 id="about" class="text">
+            About
+          </h1>
           <div id="firstsection">
             <div class="about">
               <p>
@@ -153,66 +180,47 @@ function App() {
             <div id="projecttwo" class="project">
               <Projects name={"The second project is coming"} isEmpty={true} />
             </div>
-
-            {/* <div id="projectthree" class="project">
-   <p class="projectname">Project Three</p>
-</div>
-
-
-<div id = "projectfour" class="project">
- <p class="projectname">Project Four</p>
-</div>
-
-<div id="projectfive" class="project">
-   <p class="projectname">Project Five</p>
-</div>
-
-<div id="projectsix" class="project">
-   <p class="projectname">Project Six</p>
-</div> */}
           </div>
           <h1 class="text">Contacts</h1>
-          {/* <p class="smalltext">
-            {" "}
-            I want to avoid subjective pissing-matches, and favor open-minded
-            collaborators where egos are out of the equation. If that all sounds
-            about right, then lets for sure chat about how we can work together.
-          </p> */}
+
           <div id="iconsfooter">
             <a class="footer">
-              <img class="icon" src={ig} />
+              <img
+                class="icon"
+                src={ig}
+                onClick={() =>
+                  window.open(
+                    "https://instagram.com/yuliya.rusanova?igshid=YmMyMTA2M2Y="
+                  )
+                }
+              />
             </a>
             <a class="footer">
-              <img class="icon" src={fb} />
+              <img
+                class="icon"
+                src={fb}
+                onClick={() => window.open("https://www.facebook.com/karjuale")}
+              />
             </a>
-            <a class="footer">
+            <a class="footer" href="mailto:karjuale@gmail.com">
               <img class="icon" src={mail} />
             </a>
             <a class="footer">
-              <img class="icon" src={lkdn} />
+              <img
+                class="icon"
+                src={lkdn}
+                onClick={() =>
+                  window.open(
+                    "https://www.linkedin.com/in/yulia-rusanova-627280189/"
+                  )
+                }
+              />
             </a>
           </div>
           <p class="footertext">Iuliia Rusanova ©2022</p>
         </div>
       </body>
     </html>
-
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
   );
 }
 
