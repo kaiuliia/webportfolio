@@ -6,7 +6,7 @@ import fb from "../src/resources/icons/fb.png";
 import mail  from "../src/resources/icons/mail.png";
 import {Projects} from '../src/Components/projects'
 // import {Link} from '../src/Components/link'
-import { HashLink as Link } from "react-router-hash-link";
+// import { HashLink as Link } from "react-router-hash-link";
 
 
 
@@ -34,8 +34,8 @@ function App() {
       <body>
         <div id="body">
           <div id="header">
-            <Link to="home-page#iconsfooter">Section three</Link>
-            {/* <a class="text">About</a> */}
+          
+            <a class="text">About</a> 
             <a class="text">Portfolio</a>
             <a class="text">Contact</a>
             <a id="icon1" class="icon">
@@ -172,12 +172,12 @@ function App() {
 </div> */}
           </div>
           <h1 class="text">Contacts</h1>
-          <p class="smalltext">
+          {/* <p class="smalltext">
             {" "}
             I want to avoid subjective pissing-matches, and favor open-minded
             collaborators where egos are out of the equation. If that all sounds
             about right, then lets for sure chat about how we can work together.
-          </p>
+          </p> */}
           <div id="iconsfooter">
             <a class="footer">
               <img class="icon" src={ig} />
