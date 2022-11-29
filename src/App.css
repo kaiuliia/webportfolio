@@ -222,8 +222,13 @@ display:block;
 
     background-repeat: no-repeat;
 width:max-content; */
-    min-height: 500px;
+background-image: url("../src/resources/images/bg3.jpg");
+   
+background-size:cover; 
+min-height: 500px;
     max-height: fit-content;
+     background-image: linear-gradient(to bottom, transparent 50%, black 100%), url("../src/resources/images/bg3.jpg");
+
    
   }
 
@@ -249,9 +254,8 @@ width:max-content; */
   .about {
     width: 100%;
   }
- #links > a.old{
- margin:0;
-color:blue
+ #links {
+ display: none;
  }
 }
 
