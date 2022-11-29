@@ -27,12 +27,12 @@ export class Links extends React.Component {
     const linkName = this.state.text;
     return (
       <a
-        class="old"
+        id="old"
         onMouseEnter={this.changeText}
         onMouseLeave={this.changeBack}
         onClick={this.openLink}
       >
-        <h1 id="link">{this.state.text}</h1>
+        <h1 id="link">{this.state.text} </h1>
       </a>
     );
   }

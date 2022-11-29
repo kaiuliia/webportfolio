@@ -4,7 +4,7 @@ html {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
 
-  background-color: black;
+  background-color: rgba(208, 47, 47, 0.808);
 }
 
 p {
@@ -196,48 +196,62 @@ margin:auto;
 
 /* Mobile */
 @media screen and (max-width: 600px) {
-  #mainsection > .links {
+
+html {
+display:block;
+}
+
+  /* #mainsection > .links {
     font-size: 1.5rem;
     padding-left: 2.5rem;
     padding-top: 5rem;
-  }
+    width:100%;
+  } */
+ /* #body {
+ 
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  width: fit-content;
+  height: auto;
 
+  } */
   #mainsection {
-    background-image: url("../src/resources/images/bg2.jpg");
-    background-size: cover;
+    /* background-image: url("../src/resources/images/bg2.jpg");
+    background-size:auto; 
 
     background-repeat: no-repeat;
-
+width:max-content; */
     min-height: 500px;
     max-height: fit-content;
-    /* position: absolute;
-    top: 60px;*/
+   
   }
 
   #header {
     display:none;
-    height: 60px;
-    font-size: 0.8rem;
+    /* height: 60px;
+    font-size: 0.8rem; */
+
   }
   #header > a {
     margin-left: 10px;
+    
   }
   a > img {
     width: 1.5rem;
   }
   #firstsection {
-    display: block;
+    display:block;
     width: 100%;
   }
-  #body {
-    width: 100%;
-  }
+ 
 
   .about {
     width: 100%;
   }
-  #scale {
-    width: 100%;
-    margin:0;
-  }
+ #links > a.old{
+ margin:0;
+color:blue
+ }
 }
+

@@ -59,3 +59,10 @@
   text-align: end;
   padding: 0.2rem;
 }
+
+@media screen and (max-width: 600px) {
+   #scale {
+    width: 100%;
+    margin:0;
+  }
+}
