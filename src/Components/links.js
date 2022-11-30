@@ -7,7 +7,7 @@ export class Links extends React.Component {
     this.state = { text: this.props.name };
     this.openLink = this.openLink.bind(this);
     this.changeText = this.changeText.bind(this);
-     this.changeBack = this.changeBack.bind(this);
+    this.changeBack = this.changeBack.bind(this);
   }
 
   changeText() {
@@ -19,8 +19,7 @@ export class Links extends React.Component {
   }
 
   openLink() {
-    window.location.replace(this.props.link)
-  
+    window.location.replace(this.props.link);
   }
 
   render() {
@@ -37,28 +36,3 @@ export class Links extends React.Component {
     );
   }
 }
-
-
-  // this.state = {greeting : 
-  //         'Click the button to receive greetings'} 
-        
-  //   // Binding this keyword 
-  //   this.updateState = this.updateState.bind(this) 
-  // } 
-    
-  // updateState(){ 
-  //   // Changing state 
-  //   this.setState({greeting : 
-  //                'GeeksForGeeks welcomes you !!'}) 
-  // } 
-      
-  // render(){ 
-  //   return ( 
-  //     <div> 
-  //      <h2>Greetings Portal</h2>   
-  //      <p>{this.state.greeting}</p>
-      
-  //       {/* Set click handler */} 
-  //       <button onClick={this.updateState}> 
-  //         Click me!
-  //       </button> 

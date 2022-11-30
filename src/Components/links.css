@@ -1,57 +1,44 @@
 #mainsection > .links {
-   position:static; 
+  position: static;
 
   color: rgb(0, 175, 175);
 
   font-size: 2.5rem;
 
   font-weight: bolder;
-   padding-left: 5rem; 
+  padding-left: 5rem;
   padding-top: 5rem;
   padding-bottom: 10rem;
-    line-height: 1;
-  
-   
+  line-height: 1;
 }
 
 h1 {
-   transition: color 0.1s linear 0.1s;
+  transition: color 0.1s linear 0.1s;
 }
 h1:hover {
-  
- color:aqua;
- 
+  color: aqua;
 }
 
- #link {
+#link {
+  text-align: left;
 
-     text-align: left;
-     
-      transition: 1s;
-      cursor: pointer;
- }
+  transition: 1s;
+  cursor: pointer;
+}
 
- @media screen and (max-width: 600px) {
-    #old {
-
-       
-       
-    }
-
-      #link {
-        display:flex;
-     position:relative;
-     text-align: right;
+@media screen and (max-width: 600px) {
+  #link {
+    display: flex;
+    position: relative;
+    text-align: right;
     justify-items: flex-end;
-     width:100%;
-      transition: 1s;
-      
-      font-size: 2.5rem;
-      margin:0;
-   padding-right: 0px;
- 
+    width: 100%;
+    transition: 1s;
+
+    font-size: 2.5rem;
+    margin: 0;
+    padding-right: 0px;
+
     font-weight: bold;
-
- }
-
- }
+  }
+}

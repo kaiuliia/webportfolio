@@ -1,36 +1,28 @@
 .project {
-width:300px;
-height:250px;
-margin:3px;}
-
-
-
-
-
-#project {
-background-color: rgb(42, 42, 42);
-color:white;
-text-align: center;
-align-items: center;
-position: relative;
-cursor: pointer;
-
-
+  width: 300px;
+  height: 250px;
+  margin: 3px;
 }
 
-
-.projectname  {
+#project {
+  background-color: rgb(42, 42, 42);
+  color: white;
+  text-align: center;
+  align-items: center;
   position: relative;
-  top:50%;
-  margin:0;
+  cursor: pointer;
+}
+
+.projectname {
+  position: relative;
+  top: 50%;
+  margin: 0;
   text-align: center;
   font-weight: bolder;
-  color:white;
+  color: white;
   cursor: pointer;
-
 }
 
 #project:hover {
-   background-color: rgb(4, 71, 71);
+  background-color: rgb(4, 71, 71);
 }
-

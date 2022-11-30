@@ -1,16 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 import ig from "../src/resources/icons/ig.png";
 import lkdn from "../src/resources/icons/lkdn.png";
 import fb from "../src/resources/icons/fb.png";
-import mail  from "../src/resources/icons/mail.png";
-import {Projects} from '../src/Components/projects'
+import mail from "../src/resources/icons/mail.png";
+import { Projects } from "../src/Components/projects";
 import { Scale } from "../src/Components/scale";
 import { Links } from "../src/Components/links";
 // import {Link} from '../src/Components/link'
 // import { HashLink as Link } from "react-router-hash-link";
-
-
 
 function App() {
   return (
@@ -97,12 +95,12 @@ function App() {
               <p>
                 I’m very interested in programming and love to solve different
                 types of problems. I learn very fast and always trying to think
-                outside of the box. Fluent in React, JavaScript, HTML and CSS.
-                I have a Graphic designer background and it helps to communicate
+                outside of the box. Fluent in React, JavaScript, HTML and CSS. I
+                have a Graphic designer background and it helps to communicate
                 with a team.
               </p>
               <p>
-               Open to permanent and freelance opportunities as an
+                Open to permanent and freelance opportunities as an
                 intern/junior engineer to learn new technologies and strengthen
                 skills.
               </p>
