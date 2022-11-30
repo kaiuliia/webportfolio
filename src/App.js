@@ -74,6 +74,9 @@ function App() {
           </div>
 
           <div id="mainsection" class="banner">
+            <div class='mobileHeader'>
+              
+       </div>
             <div class="links">
               <div class="firstword">
                 <Links

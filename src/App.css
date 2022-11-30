@@ -8,8 +8,8 @@ html {
 }
 
 p {
-  line-height:1.5em;
-text-align: justify;  
+  line-height: 1.5em;
+  text-align: justify;
 }
 /* header */
 #body {
@@ -32,23 +32,20 @@ text-align: justify;
 
   align-items: center;
   justify-content: right;
- 
 }
 
 #header > a {
   margin-left: 10px;
-color:white;
+  color: white;
 
   text-align: center;
   margin-block-end: 1.5rem;
   margin-block-start: 2rem;
   margin-inline-start: 2rem;
   margin-inline-end: 2rem;
-  cursor:pointer;
-text-decoration:none;
+  cursor: pointer;
+  text-decoration: none;
 }
-
-
 
 a > img {
   width: 2rem;
@@ -75,11 +72,7 @@ a > img {
   background-size: cover;
   background-repeat: none;
   min-height: 800px;
- 
 }
-
-
-
 
 /* Pages */
 
@@ -92,8 +85,7 @@ a > img {
   background-color: black;
 }
 
-
- h1   {
+h1 {
   color: white;
   text-align: center;
 }
@@ -101,68 +93,58 @@ a > img {
   background-color: black;
   height: auto;
   width: 50%;
- 
 }
 .about > p {
   color: white;
   text-align: justify;
- margin:2rem;
+  margin: 2rem;
 }
 
-
 #secondsection {
-  width:auto;
-  height:auto;
+  width: auto;
+  height: auto;
   background-color: black;
-  display:flex;
+  display: flex;
 
-  margin:30px;
+  margin: 30px;
   justify-content: center;
   flex-wrap: wrap;
 }
- .project {
-width:300px;
-height:250px;
-margin:3px;
-
-
+.project {
+  width: 300px;
+  height: 250px;
+  margin: 3px;
 }
 
-.projectname  {
+.projectname {
   position: relative;
-  top:50%;
-  margin:0;
+  top: 50%;
+  margin: 0;
   text-align: center;
   font-weight: bolder;
-  color:white;
-
+  color: white;
 }
 
-
-
 .smalltext {
-  color:white;
+  color: white;
   text-align: justify;
-  margin:2rem;
+  margin: 2rem;
 }
 
 .footertext {
-  color:white;
+  color: white;
   font-size: 0.5rem;
   text-align: center;
 }
 #iconsfooter {
   display: flex;
-   justify-content: center;
- align-items: center;
- cursor:pointer;
-
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 .footer {
-  margin:1rem;
+  margin: 1rem;
 }
-
-  
 
 /* Landing */
 @media only screen and (max-width: 1280px) {
@@ -177,29 +159,27 @@ margin:3px;
     font-size: 2.5rem;
     padding-left: 5rem;
   }
-   #firstsection {
+  #firstsection {
     display: block;
-    
   }
   .about {
     width: 100%;
   }
   #scale {
-    width: 100%; 
-justify-content: center;
-margin:auto;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
   }
-   #body {
+  #body {
     width: 100%;
   }
 }
 
 /* Mobile */
 @media screen and (max-width: 600px) {
-
-html {
-display:block;
-}
+  html {
+    display: block;
+  }
 
   /* #mainsection > .links {
     font-size: 1.5rem;
@@ -207,7 +187,7 @@ display:block;
     padding-top: 5rem;
     width:100%;
   } */
- /* #body {
+  /* #body {
  
   top: 0;
   left: 0;
@@ -222,40 +202,41 @@ display:block;
 
     background-repeat: no-repeat;
 width:max-content; */
-background-image: url("../src/resources/images/bg3.jpg");
-   
-background-size:cover; 
-min-height: 500px;
-    max-height: fit-content;
-     background-image: linear-gradient(to bottom, transparent 50%, black 100%), url("../src/resources/images/bg3.jpg");
+    background-image: url("../src/resources/images/bg3.jpg");
 
-   
+    background-size: cover;
+    min-height: 500px;
+    max-height: 500px;
+    background-image: linear-gradient(to bottom, transparent 50%, black 100%),
+      url("../src/resources/images/bg3.jpg");
   }
 
   #header {
-    display:none;
+    display: none;
     /* height: 60px;
     font-size: 0.8rem; */
-
   }
   #header > a {
     margin-left: 10px;
-    
   }
   a > img {
     width: 1.5rem;
   }
-  #firstsection {
-    display:block;
+  /* #firstsection {
+    display: block;
     width: 100%;
-  }
- 
+  } */
 
   .about {
     width: 100%;
   }
- #links {
- display: none;
- }
-}
+  /* div.firstword {
+    display:flex;
+  margin-top:15rem;
 
+  } */
+
+  div.links{
+    display:none;
+  }
+}
