@@ -119,7 +119,7 @@ function App() {
             <div id="projecttwo" class="project">
               <Projects
                 name={"Jammming"}
-                link={"http://juliajammming.surge.sh"}
+                link={"https://jamming.rusanova.eu"}
               />
             </div>
 
