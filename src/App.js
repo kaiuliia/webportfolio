@@ -43,10 +43,7 @@ function App() {
             <a class="text" onClick={() => window.location.replace("/#about")}>
               Portfolio
             </a>
-            <a
-              class="text"
-              href="mailto:karjuale@gmail.com"
-            >
+            <a class="text" href="mailto:karjuale@gmail.com">
               Contact
             </a>
             <a id="icon1" class="icon">
@@ -74,29 +71,18 @@ function App() {
           </div>
 
           <div id="mainsection" class="banner">
-            <div class='mobileHeader'>
-              
-       </div>
+            <div class="mobileHeader">
+              <h1>Hello! I am Yulia.</h1>
+            </div>
+
             <div class="links">
               <div class="firstword">
-                <Links
-                  name={"Hello"}
-                  alt={"About"}
-                  link={"/#about"}
-                />
+                <Links name={"Hello"} alt={"About"} link={"/#about"} />
               </div>
 
-              <Links
-                name={"I am"}
-                alt={"Projects"}
-                link={"/#about"}
-              />
+              <Links name={"I am"} alt={"Projects"} link={"/#about"} />
 
-              <Links
-                name={"Julia"}
-                alt={"Contacts"}
-                link={"/#iconsfooter"}
-              />
+              <Links name={"Yulia"} alt={"Contacts"} link={"/#iconsfooter"} />
             </div>
           </div>
 

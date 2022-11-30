@@ -46,7 +46,9 @@ p {
   cursor: pointer;
   text-decoration: none;
 }
-
+div.mobileHeader{
+  display:none;
+}
 a > img {
   width: 2rem;
 
@@ -239,4 +241,22 @@ width:max-content; */
   div.links{
     display:none;
   }
+  div.mobileHeader{
+  display:table-caption;
+  position: absolute;
+  top:25rem;
+  
+}
+div.mobileHeader > h1{
+  font-size:x-large;
+}
+
+h1 {
+  color: white;
+  text-align: left;
+  margin-left:2.5rem;
+  font-size: medium;
+  
+}
+
 }
