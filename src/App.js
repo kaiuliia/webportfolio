@@ -89,21 +89,22 @@ function App() {
           <h1 id="about" class="text">
             About
           </h1>
+          <h1 id="mobileHeader" class="text">
+            Hello, I'm Yulia!
+          </h1>
           <div id="firstsection">
             <div class="about">
               <p>
-                Hi! I'm an open-minded and curious designer and illustrator with
-                about two years of professional experience. I worked as a
-                graphic designer for a small fashion brand O My Bag in
-                Amsterdam: I've created designs for marketing campaigns, B2B
-                pages and worked on the website design.
+                I’m very interested in programming and love to solve different
+                types of problems. I learn very fast and always trying to think
+                outside of the box. Fluent in React, JavaScript, HTML and CSS.
+                I have a Graphic designer background and it helps to communicate
+                with a team.
               </p>
               <p>
-                I'm actively studying different aspects and techniques of
-                graphic design, passed several design courses: fashion
-                illustration, character design, motion design, Adobe Creative
-                Suite (Photoshop, Illustrator, Premiere Pro, AfterEffects), and
-                Procreate.
+               Open to permanent and freelance opportunities as an
+                intern/junior engineer to learn new technologies and strengthen
+                skills.
               </p>
             </div>
             <div id="scale" class="scale">
