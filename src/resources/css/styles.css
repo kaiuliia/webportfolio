@@ -8,8 +8,8 @@ html {
 }
 
 p {
-  line-height:1.5em;
-text-align: justify;  
+  line-height: 1.5em;
+  text-align: justify;
 }
 /* header */
 #body {
@@ -42,7 +42,6 @@ text-align: justify;
   margin-block-start: 2rem;
   margin-inline-start: 2rem;
   margin-inline-end: 2rem;
-
 }
 
 a > img {
@@ -70,7 +69,6 @@ a > img {
   background-size: cover;
   background-repeat: none;
   min-height: 800px;
- 
 }
 
 #mainsection > .links {
@@ -84,29 +82,22 @@ a > img {
   padding-left: 10rem;
   padding-top: 5rem;
   padding-bottom: 10rem;
-    line-height: 1;
-   
+  line-height: 1;
 }
 
 h1 {
   transition: color 0.5s linear 0.5s;
 }
 h1:hover {
- 
- color:aqua;
- 
+  color: aqua;
 }
- .new {
-   opacity:1;
-  
-   position: absolute;
-  
- }
- .firstword{
+.new {
+  opacity: 1;
 
-
-
- }
+  position: absolute;
+}
+.firstword {
+}
 /*
 .old .new {
   transition: opacity 0.5s linear;
@@ -129,8 +120,7 @@ h1:hover {
   background-color: black;
 }
 
-
- h1   {
+h1 {
   color: white;
   text-align: center;
 }
@@ -138,12 +128,11 @@ h1:hover {
   background-color: black;
   height: auto;
   width: 50%;
- 
 }
 .about > p {
   color: white;
   text-align: justify;
- margin:2rem;
+  margin: 2rem;
 }
 #scale {
   width: 50%;
@@ -181,7 +170,6 @@ h1:hover {
   background-color: rgb(9, 124, 124);
   width: 85px;
   height: 22px;
-  
 }
 
 .namescale > p {
@@ -208,38 +196,34 @@ h1:hover {
 /* Second */
 
 #secondsection {
-  width:auto;
-  height:auto;
+  width: auto;
+  height: auto;
   background-color: black;
-  display:flex;
+  display: flex;
 
-  margin:30px;
+  margin: 30px;
   justify-content: center;
   flex-wrap: wrap;
 }
 .project {
-width:300px;
-height:250px;
-margin:3px;
-
-
+  width: 300px;
+  height: 250px;
+  margin: 3px;
 }
 #projectone {
-background-image: url("../images/p1.jpg");
-color:white;
-text-align: center;
-align-items: center;
-position: relative;
-
-}
-.projectname  {
+  background-image: url("../images/p1.jpg");
+  color: white;
+  text-align: center;
+  align-items: center;
   position: relative;
-  top:50%;
-  margin:0;
+}
+.projectname {
+  position: relative;
+  top: 50%;
+  margin: 0;
   text-align: center;
   font-weight: bolder;
-  color:white;
-
+  color: white;
 }
 #projecttwo {
   background-image: url("../images/p2.jpg");
@@ -248,7 +232,7 @@ position: relative;
   background-image: url("../images/p3.jpg");
 }
 #projectfour {
-background-image: url("../images/p4.jpg");
+  background-image: url("../images/p4.jpg");
 }
 #projectfive {
   background-image: url("../images/p5.jpg");
@@ -260,25 +244,23 @@ background-image: url("../images/p4.jpg");
 /* Third */
 
 .smalltext {
-  color:white;
+  color: white;
   text-align: justify;
-  margin:2rem;
+  margin: 2rem;
 }
 
 .footertext {
-  color:white;
+  color: white;
   font-size: 0.5rem;
   text-align: center;
 }
 #iconsfooter {
   display: flex;
-   justify-content: center;
- align-items: center;
-
+  justify-content: center;
+  align-items: center;
 }
 .footer {
-
-  margin:1rem;
+  margin: 1rem;
 }
 /* Landing */
 @media only screen and (max-width: 1280px) {
@@ -293,19 +275,18 @@ background-image: url("../images/p4.jpg");
     font-size: 2.5rem;
     padding-left: 5rem;
   }
-   #firstsection {
+  #firstsection {
     display: block;
-    
   }
   .about {
     width: 100%;
   }
   #scale {
-    width: 100%; 
-justify-content: center;
-margin:auto;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
   }
-   #body {
+  #body {
     width: 100%;
   }
 }
@@ -331,7 +312,7 @@ margin:auto;
   }
 
   #header {
-    display:none;
+    display: none;
     height: 60px;
     font-size: 0.8rem;
   }
@@ -354,6 +335,6 @@ margin:auto;
   }
   #scale {
     width: 100%;
-    margin:0;
+    margin: 0;
   }
 }
