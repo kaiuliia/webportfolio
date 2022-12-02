@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import ig from "../src/resources/icons/ig.png";
+import git from "../src/resources/icons/git.png";
 import lkdn from "../src/resources/icons/lkdn.png";
 import fb from "../src/resources/icons/fb.png";
 import mail from "../src/resources/icons/mail.png";
@@ -25,9 +25,9 @@ function App() {
         <a
           id="icon1"
           class="icon"
-          href="https://instagram.com/yuliya.rusanova?igshid=YmMyMTA2M2Y="
+          href="https://github.com/kaiuliia/"
         >
-          <img class="icon" src={ig} />
+          <img class="icon" src={git} />
         </a>
         <a
           class="icon"
@@ -90,11 +90,8 @@ function App() {
       <h1 class="text">Contacts</h1>
 
       <div id="iconsfooter">
-        <a
-          class="footer"
-          href="https://instagram.com/yuliya.rusanova?igshid=YmMyMTA2M2Y="
-        >
-          <img class="icon" src={ig} />
+        <a class="footer" href="https://github.com/kaiuliia/">
+          <img class="icon" src={git} />
         </a>
         <a class="footer" href="https://www.facebook.com/karjuale">
           <img class="icon" src={fb} />
