@@ -7,12 +7,12 @@ import mail from "../src/resources/icons/mail.png";
 import { Projects } from "../src/Components/projects";
 import { Skills } from "../src/Components/skills";
 import { Links } from "../src/Components/links";
-// import html from "../resources/icons/html.png";
-// import css from "../resources/icons/css.png";
-// import vs from "../resources/icons/vs.png";
-// import node from "../resources/icons/node.png";
-// import react from "../resources/icons/react.png";
-// import js from "../resources/icons/js.png";
+import html from "../src/resources/icons/html.png";
+import css from "../src/resources/icons/css.png";
+import vs from "../src/resources/icons/vs.png";
+import node from "../src/resources/icons/node.png";
+import react from "../src/resources/icons/react.png";
+import js from "../src/resources/icons/js.png";
 
 function App() {
   return (
@@ -71,8 +71,12 @@ function App() {
           </p>
         </div>
         <div id="skills" class="skills">
-        <Skills name={'HTML'} icon={fb}/>
-
+          <Skills name={"HTML"} icon={html} />
+          <Skills name={"CSS"} icon={css} />
+          <Skills name={"Node.js"} icon={node} />
+          <Skills name={"Java Script"} icon={js} />
+          <Skills name={"React"} icon={react} />
+          <Skills name={"Visual Studio"} icon={vs} />
         </div>
       </div>
 
