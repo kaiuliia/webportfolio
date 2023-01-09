@@ -5,7 +5,7 @@ import lkdn from "../src/resources/icons/lkdn.png";
 import fb from "../src/resources/icons/fb.png";
 import mail from "../src/resources/icons/mail.png";
 import { Projects } from "../src/Components/projects";
-import { Scale } from "../src/Components/scale";
+import { Skills } from "../src/Components/skills";
 import { Links } from "../src/Components/links";
 
 function App() {
@@ -22,11 +22,7 @@ function App() {
         <a class="text" href="mailto:karjuale@gmail.com">
           Contact
         </a>
-        <a
-          id="icon1"
-          class="icon"
-          href="https://github.com/kaiuliia/"
-        >
+        <a id="icon1" class="icon" href="https://github.com/kaiuliia/">
           <img class="icon" src={git} />
         </a>
         <a
@@ -68,12 +64,9 @@ function App() {
             engineer to learn new technologies and strengthen skills.
           </p>
         </div>
-        <div id="scale" class="scale">
-          <Scale name={"HTML"} percent={"85%"} />
-          <Scale name={"CSS"} percent={"85%"} />
-          <Scale name={"Java Script"} percent={"65%"} />
-          <Scale name={"Node.js"} percent={"20%"} />
-          <Scale name={"React"} percent={"65%"} />
+        <div id="skills" class="skills">
+        <Skills />
+
         </div>
       </div>
 
