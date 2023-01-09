@@ -65,7 +65,7 @@ function App() {
           </p>
         </div>
         <div id="skills" class="skills">
-        <Skills />
+        <Skills name={'HTML'} icon={fb}/>
 
         </div>
       </div>

@@ -17,5 +17,9 @@ div > img {
 
   align-items: center;
 }
-
+div > h3 {
+font-size: 1rem;
+font-weight: normal;
+margin:0;
+}
 

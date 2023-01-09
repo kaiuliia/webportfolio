@@ -15,40 +15,47 @@ export class Skills extends React.Component {
 
   render() {
     return (
-      <div id="skills">
-        <div class="skillname">
-          <p>HTML</p>
-          <img class="icon" src={html} />
-        </div>
 
-        <div class="skillname">
-          <p>CSS</p>
-          <img class="icon" src={css} />
-           </div>
+      <div id ='skills'>
+<img class='icon' src={this.props.icon}/>
+<h3>{this.props.name}</h3>
+      </div>
 
-            <div class="skillname">
-          <p>Java Script</p>
-          <img class="icon" src={js} />
-           </div>
- <div class="skillname">
-          <p>Node.js</p>
-          <img class="icon" src={node} />
-           </div>
- <div class="skillname">
-          <p>React</p>
-          <img class="icon" src={react} />
-           </div>
- <div class="skillname">
-          <p>GitHub</p>
-          <img class="icon" src={git} />
- </div>
-         <div class="skillname">
-          <p>Visual Studio</p>
-          <img class="icon" src={vs} />
+    
+//       <div id="skills">
+//         <div class="skillname">
+//           <p>HTML</p>
+//           <img class="icon" src={html} />
+//         </div>
+
+//         <div class="skillname">
+//           <p>CSS</p>
+//           <img class="icon" src={css} />
+//            </div>
+
+//             <div class="skillname">
+//           <p>Java Script</p>
+//           <img class="icon" src={js} />
+//            </div>
+//  <div class="skillname">
+//           <p>Node.js</p>
+//           <img class="icon" src={node} />
+//            </div>
+//  <div class="skillname">
+//           <p>React</p>
+//           <img class="icon" src={react} />
+//            </div>
+//  <div class="skillname">
+//           <p>GitHub</p>
+//           <img class="icon" src={git} />
+//  </div>
+//          <div class="skillname">
+//           <p>Visual Studio</p>
+//           <img class="icon" src={vs} />
           
 
-        </div>
-      </div>
+//         </div>
+//       </div>
     );
   }
 }
