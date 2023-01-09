@@ -3,7 +3,7 @@
 html {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
   background-color: rgba(0, 0, 0, 0.808);
 }
 
@@ -32,7 +32,6 @@ p {
 
   align-items: center;
   justify-content: right;
-
 }
 #mobileHeader {
   display: none;
@@ -79,7 +78,6 @@ a > img {
 /* First */
 
 #firstsection {
-  display: flex;
   justify-content: space-between;
 
   background-color: black;
@@ -92,7 +90,7 @@ h1 {
 .about {
   background-color: black;
   height: auto;
-  width: 50%;
+  width: 100%;
 }
 .about > p {
   color: white;
@@ -100,6 +98,10 @@ h1 {
   margin: 2rem;
 }
 
+#skills {
+  display: flex;
+  justify-content: space-around;
+}
 #secondsection {
   width: auto;
   height: auto;
@@ -206,6 +208,11 @@ h1 {
   #firstsection {
     display: block;
     width: 100%;
+  }
+
+  #skills {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .about {

@@ -5,8 +5,14 @@ import lkdn from "../src/resources/icons/lkdn.png";
 import fb from "../src/resources/icons/fb.png";
 import mail from "../src/resources/icons/mail.png";
 import { Projects } from "../src/Components/projects";
-import { Scale } from "../src/Components/scale";
+import { Skills } from "../src/Components/skills";
 import { Links } from "../src/Components/links";
+import html from "../src/resources/icons/html.png";
+import css from "../src/resources/icons/css.png";
+import vs from "../src/resources/icons/vs.png";
+import node from "../src/resources/icons/node.png";
+import react from "../src/resources/icons/react.png";
+import js from "../src/resources/icons/js.png";
 
 function App() {
   return (
@@ -22,11 +28,7 @@ function App() {
         <a class="text" href="mailto:karjuale@gmail.com">
           Contact
         </a>
-        <a
-          id="icon1"
-          class="icon"
-          href="https://github.com/kaiuliia/"
-        >
+        <a id="icon1" class="icon" href="https://github.com/kaiuliia/">
           <img class="icon" src={git} />
         </a>
         <a
@@ -58,22 +60,29 @@ function App() {
       <div id="firstsection">
         <div class="about">
           <p>
-            I’m very interested in programming and love to solve different types
-            of problems. I learn very fast and always trying to think outside of
-            the box. Fluent in React, JavaScript, HTML and CSS. I have a Graphic
-            designer background and it helps to communicate with a team.
+            Hey, I'm Yulia! I've been learning frontend engineering for the last
+            year and spending almost all my spare time solving different
+            problems. I've created small projects and React components and
+            always try to think outside the of box. Fluent in React, JavaScript,
+            HTML, and CSS. I have a graphic designer background, which helps me
+            understand how responsive design works. And I'm a former flight
+            attendant, and it was the best opportunity to improve my soft
+            skills.
           </p>
           <p>
             Open to permanent and freelance opportunities as an intern/junior
             engineer to learn new technologies and strengthen skills.
           </p>
-        </div>
-        <div id="scale" class="scale">
-          <Scale name={"HTML"} percent={"85%"} />
-          <Scale name={"CSS"} percent={"85%"} />
-          <Scale name={"Java Script"} percent={"65%"} />
-          <Scale name={"Node.js"} percent={"20%"} />
-          <Scale name={"React"} percent={"65%"} />
+
+          <div id="skills" class="skill">
+            <Skills name={"HTML"} icon={html} />
+            <Skills name={"CSS"} icon={css} />
+            <Skills name={"Node.js"} icon={node} />
+            <Skills name={"Java Script"} icon={js} />
+            <Skills name={"React"} icon={react} />
+            <Skills name={"Visual Studio"} icon={vs} />
+          </div>
+          <br></br>
         </div>
       </div>
 
