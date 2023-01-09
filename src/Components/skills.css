@@ -1,20 +1,28 @@
-#skills {
+ #wholeskill {
+width: 100px;
+  height: 100px;
+  margin: 3px;
+
+ }
+ 
+ 
+
+
+#one {
   color: white;
 
   text-align: center;
   margin-block-end: 1.5rem;
   margin-block-start: 2rem;
   margin-inline-start: 2rem;
-  margin-inline-end: 2rem;
-  cursor: pointer;
+  margin-inline-end: 2rem; 
   text-decoration: none;
-  justify-content: space-around;
-  
 }
+
 
 div > img {
    width: 2rem;
-
+position: relative;
   align-items: center;
 }
 div > h3 {
