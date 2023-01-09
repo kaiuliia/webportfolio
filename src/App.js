@@ -7,6 +7,12 @@ import mail from "../src/resources/icons/mail.png";
 import { Projects } from "../src/Components/projects";
 import { Skills } from "../src/Components/skills";
 import { Links } from "../src/Components/links";
+// import html from "../resources/icons/html.png";
+// import css from "../resources/icons/css.png";
+// import vs from "../resources/icons/vs.png";
+// import node from "../resources/icons/node.png";
+// import react from "../resources/icons/react.png";
+// import js from "../resources/icons/js.png";
 
 function App() {
   return (

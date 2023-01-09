@@ -8,17 +8,15 @@ import node from "../resources/icons/node.png";
 import react from "../resources/icons/react.png";
 import js from "../resources/icons/js.png";
 
-export class Skills extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+export function Skills (props) {
+ 
 
-  render() {
+  
     return (
 
       <div id ='skills'>
-<img class='icon' src={this.props.icon}/>
-<h3>{this.props.name}</h3>
+<img class='icon' src={props.icon}/>
+<h3>{props.name}</h3>
       </div>
 
     
@@ -57,5 +55,5 @@ export class Skills extends React.Component {
 //         </div>
 //       </div>
     );
-  }
+  
 }
