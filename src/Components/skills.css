@@ -1,15 +1,10 @@
- #wholeskill {
-width: 100px;
+#wholeskill {
+  width: 100px;
   height: 100px;
   margin: 3px;
-  display:flex;
+  display: flex;
   justify-content: center;
-
-
- }
- 
- 
-
+}
 
 #one {
   color: white;
@@ -18,19 +13,17 @@ width: 100px;
   margin-block-end: 1.5rem;
   margin-block-start: 2rem;
   margin-inline-start: 2rem;
-  margin-inline-end: 2rem; 
+  margin-inline-end: 2rem;
   text-decoration: none;
 }
 
-
 div > img {
-   width: 2rem;
-position: relative;
+  width: 2rem;
+  position: relative;
   align-items: center;
 }
 div > h3 {
-font-size: 0.8rem;
-font-weight: normal;
-margin:0;
+  font-size: 0.8rem;
+  font-weight: normal;
+  margin: 0;
 }
-
