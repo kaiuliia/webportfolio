@@ -82,6 +82,7 @@ function App() {
             <Skills name={"React"} icon={react} />
             <Skills name={"Visual Studio"} icon={vs} />
           </div>
+          <br></br>
         </div>
       </div>
 

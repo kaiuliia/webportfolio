@@ -103,6 +103,7 @@ h1 {
 #skills  {
  display:flex;
    justify-content: space-around; 
+  
    
 }
 #secondsection {
@@ -183,6 +184,8 @@ h1 {
   }
 }
 
+
+
 /* Mobile */
 @media screen and (max-width: 600px) {
   html {
@@ -212,6 +215,14 @@ h1 {
     display: block;
     width: 100%;
   }
+
+  #skills  {
+display:flex;
+flex-wrap: wrap;
+
+
+   
+}
 
   .about {
     width: 100%;

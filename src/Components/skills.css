@@ -2,6 +2,9 @@
 width: 100px;
   height: 100px;
   margin: 3px;
+  display:flex;
+  justify-content: center;
+
 
  }
  
@@ -26,7 +29,7 @@ position: relative;
   align-items: center;
 }
 div > h3 {
-font-size: 1rem;
+font-size: 0.8rem;
 font-weight: normal;
 margin:0;
 }
