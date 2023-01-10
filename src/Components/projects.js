@@ -1,27 +1,24 @@
 import React from "react";
 import "./projects.css";
 
-export class Projects extends React.Component {
-  constructor(props) {
-    super(props);
-    this.openProject = this.openProject.bind(this);
-  }
+export function Projects (props) {
+ 
 
-  openProject() {
-    if (this.props.isEmpty) {
+  const openProject = () => {
+    if (props.isEmpty) {
       return;
     } else {
-      window.open(this.props.link);
+      window.open(props.link);
     }
   }
 
-  render() {
+ 
     return (
-      <div id="project" class="project" onClick={this.openProject}>
-        <p class="projectname" onClick={this.openProject}>
-          {this.props.name}
+      <div id="project" class="project" onClick={openProject}>
+        <p class="projectname" onClick={openProject}>
+          {props.name}
         </p>
       </div>
     );
   }
-}
+
