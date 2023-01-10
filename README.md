@@ -1,4 +1,6 @@
-My portfolio website
+This is my portfolio website.
+To open it follow http://rusanova.eu
+
 
 ## Available Scripts
 
