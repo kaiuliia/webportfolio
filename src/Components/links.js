@@ -1,38 +1,34 @@
-import React from "react";
+import React, {useState} from "react";
 import "./links.css";
 
-export class Links extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { text: this.props.name };
-    this.openLink = this.openLink.bind(this);
-    this.changeText = this.changeText.bind(this);
-    this.changeBack = this.changeBack.bind(this);
+export function Links (props) {
+ 
+const [text, setText] = useState(props.name)
+
+  const changeText = () => {
+    setText(props.alt)
+
   }
 
-  changeText() {
-    this.setState({ text: this.props.alt });
+  const changeBack = () => {
+    setText(props.name)
   }
 
-  changeBack() {
-    this.setState({ text: this.props.name });
+  const openLink = () => {
+    window.location.replace(props.link);
   }
 
-  openLink() {
-    window.location.replace(this.props.link);
-  }
 
-  render() {
-    const linkName = this.state.text;
+    const linkName = text;
     return (
       <a
         id="old"
-        onMouseEnter={this.changeText}
-        onMouseLeave={this.changeBack}
-        onClick={this.openLink}
+        onMouseEnter={changeText}
+        onMouseLeave={changeBack}
+        onClick={openLink}
       >
-        <h1 id="link">{this.state.text} </h1>
+        <h1 id="link">{text} </h1>
       </a>
     );
   }
-}
+
