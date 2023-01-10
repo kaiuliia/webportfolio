@@ -10,7 +10,7 @@ const [text, setText] = useState(props.name)
 
   }
 
-  const changeBack = () => {
+ const changeBack = () => {
     setText(props.name)
   }
 
@@ -18,8 +18,8 @@ const [text, setText] = useState(props.name)
     window.location.replace(props.link);
   }
 
-
-    const linkName = text;
+  render() {
+    const linkName = this.state.text;
     return (
       <a
         id="old"
@@ -31,4 +31,4 @@ const [text, setText] = useState(props.name)
       </a>
     );
   }
-
+}
