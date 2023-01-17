@@ -93,7 +93,19 @@ function App() {
         </div>
 
         <div id="projecttwo" class="project">
-          <Projects name={"The second project is coming"} isEmpty={true} />
+          <Projects
+            name={"Rock-Paper-Scissors Game"}
+            link={"https://rsp.rusanova.eu/"}
+       
+          />
+        </div>
+
+        <div id="projecttwo" class="project">
+          <Projects
+            name={"Third project is coming"}
+           
+            isEmpty={true}
+          />
         </div>
       </div>
       <h1 class="text">Contacts</h1>
