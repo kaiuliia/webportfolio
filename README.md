@@ -1,6 +1,5 @@
 This is my portfolio website.
-You can check it by following link
-http://rusanova.eu
+To open it follow http://rusanova.eu
 
 
 ## Available Scripts
