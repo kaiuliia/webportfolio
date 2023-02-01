@@ -93,21 +93,29 @@ function App() {
             name={"Jammming"}
             link={"https://jamming.rusanova.eu"}
             desc={
-              "This is the website that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account."
+              "The website that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account."
             }
           />
         </div>
 
         <div id="projecttwo" class="project">
           <Projects
-            name={"Rock-Paper-Scissors Game"}
-            desc={""}
+            name={"Rock-Paper-Scissors"}
+            desc={
+              "Choose rock, paper or scissors and play against the computer."
+            }
             link={"https://rsp.rusanova.eu/"}
           />
         </div>
 
         <div id="projectthree" class="project">
-          <Projects name={"Adopt a pet"} link={"https://pet.rusanova.eu/"} />
+          <Projects
+            name={"Adopt a pet"}
+            link={"https://pet.rusanova.eu/"}
+            desc={
+              "Adopt a Pet is an app, created using react-router. You can choose a pet, easily switch between pages and search a pet by name."
+            }
+          />
         </div>
 
         <div id="projectfour" class="project">
