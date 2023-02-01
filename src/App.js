@@ -119,7 +119,11 @@ function App() {
         </div>
 
         <div id="projectfour" class="project">
-          <Projects name={"Next project is coming"} isEmpty={true} />
+          <Projects
+            name={"Next project is coming"}
+            isEmpty={true}
+            desc={"Next project is coming"}
+          />
         </div>
       </div>
       <h1 class="text">Contacts</h1>
