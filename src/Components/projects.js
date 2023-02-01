@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./projects.css";
 
-export function Projects (props) {
- 
+export function Projects(props) {
+    const [text, setText] = useState(props.name);
 
   const openProject = () => {
     if (props.isEmpty) {
@@ -10,15 +10,27 @@ export function Projects (props) {
     } else {
       window.open(props.link);
     }
-  }
+  };
+  const changeText = () => {
+    setText(props.desc);
+  };
 
- 
-    return (
-      <div id="project" class="project" onClick={openProject}>
-        <p class="projectname" onClick={openProject}>
-          {props.name}
-        </p>
-      </div>
-    );
-  }
-
+  const changeBack = () => {
+    setText(props.name);
+  };
+const linkName = text;
+  return (
+    <div
+      id="project"
+      class="project"
+      onClick={openProject}
+      onMouseEnter={changeText}
+      onMouseLeave={changeBack}
+    >
+      <p class="projectname" onClick={openProject}>
+        {text}
+      </p>
+      {/* <p id="desc">{props.desc}</p> */}
+    </div>
+  );
+}
