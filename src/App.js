@@ -60,18 +60,25 @@ function App() {
       <div id="firstsection">
         <div class="about">
           <p>
-            Hey, I'm Yulia! I've been learning frontend engineering for the last
-            year and spending almost all my spare time solving different
-            problems. I've created small projects and React components and
-            always try to think outside the of box. Fluent in React, JavaScript,
-            HTML, and CSS. I have a graphic designer background, which helps me
-            understand how responsive design works. And I'm a former flight
-            attendant, and it was the best opportunity to improve my soft
-            skills.
+            I'm Yulia - a passionate and enthusiastic frontend developer. I love
+            to create beautiful and functional websites that deliver an
+            outstanding user experience. With a background in graphic design, I
+            have an eye for detail and a keen understanding of how to craft
+            interfaces that are both visually appealing and user-friendly. I'm
+            fluent in React, JavaScript, HTML, and CSS, and I'm constantly
+            striving to improve my skills and learn new technologies. Now, I'm
+            ready to take on new challenges and grow even further as a
+            developer. I'm open to opportunities as an intern or junior
+            engineer, whether permanent or freelance. As a former stewardess, I
+            understand the importance of teamwork and communication, and I bring
+            those same values to my work as a developer.
           </p>
           <p>
-            Open to permanent and freelance opportunities as an intern/junior
-            engineer to learn new technologies and strengthen skills.
+            I have a spouse visa which allows me to work in the Netherlands
+            without restrictions. Also, I can work remotely as a self-employed.
+          </p>
+          <p>
+            Let's connect and see how I can help bring your projects to life!
           </p>
 
           <div id="skills" class="skill">
@@ -96,16 +103,18 @@ function App() {
           <Projects
             name={"Rock-Paper-Scissors Game"}
             link={"https://rsp.rusanova.eu/"}
-       
           />
         </div>
 
-        <div id="projecttwo" class="project">
+        <div id="projectthree" class="project">
           <Projects
-            name={"Third project is coming"}
-           
-            isEmpty={true}
+            name={"Adopt a pet"}
+            link={"https://pet.rusanova.eu/"}
           />
+        </div>
+
+        <div id="projectfour" class="project">
+          <Projects name={"Next project is coming"} isEmpty={true} />
         </div>
       </div>
       <h1 class="text">Contacts</h1>
