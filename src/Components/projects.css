@@ -11,21 +11,20 @@
   align-items: center;
   position: relative;
   cursor: pointer;
- margin-left:2rem;
- margin-right:2rem;
-  /* display: flex; */
 }
 
 .projectname {
   position: relative;
   top: 50%;
-
-  margin: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   text-align: center;
   font-weight: bolder;
   color: white;
   cursor: pointer;
 }
+
+
 
 #project:hover {
   background-color: rgb(4, 71, 71);
@@ -35,21 +34,3 @@
 
 }
 
-
-/* p:hover {
-  font-size: 0.9rem;
-  padding-left: 2rem;
-padding-right: 2rem;
-font-weight:400
-}  */
-
-
-/* #desc {
-  display:flex;
-  position:relative;
-  justify-content: space-evenly;
-  margin-top: 0;
-  font-size: smaller;
-padding-left: 1.5rem;
-padding-right: 1.5rem;
-} */
