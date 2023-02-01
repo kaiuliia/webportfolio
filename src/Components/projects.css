@@ -11,13 +11,16 @@
   align-items: center;
   position: relative;
   cursor: pointer;
-/* display: flex; */
+ margin-left:2rem;
+ margin-right:2rem;
+  /* display: flex; */
 }
 
 .projectname {
   position: relative;
   top: 50%;
-  margin: 0;
+
+  margin: 2rem;
   text-align: center;
   font-weight: bolder;
   color: white;
@@ -26,7 +29,20 @@
 
 #project:hover {
   background-color: rgb(4, 71, 71);
+   font-size: 0.9rem;
+   font-weight:300;
+
+
 }
+
+
+/* p:hover {
+  font-size: 0.9rem;
+  padding-left: 2rem;
+padding-right: 2rem;
+font-weight:400
+}  */
+
 
 /* #desc {
   display:flex;

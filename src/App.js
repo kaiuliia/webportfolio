@@ -88,7 +88,8 @@ function App() {
 
       <h1 class="text">Projects</h1>
       <div id="secondsection">
-        <div id="projecttwo" class="project">
+        
+        <div id="projectone" class="project">
           <Projects
             name={"Jammming"}
             link={"https://jamming.rusanova.eu"}
@@ -118,14 +119,15 @@ function App() {
           />
         </div>
 
-        <div id="projectfour" class="project">
+        {/* <div id="projectfour" class="project">
           <Projects
             name={"Next project is coming"}
             isEmpty={true}
-            desc={"Next project is coming"}
+            desc={""}
           />
-        </div>
+        </div> */}
       </div>
+      <br></br>
       <h1 class="text">Contacts</h1>
 
       <div id="iconsfooter">
