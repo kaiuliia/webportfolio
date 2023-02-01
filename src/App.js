@@ -89,21 +89,25 @@ function App() {
       <h1 class="text">Projects</h1>
       <div id="secondsection">
         <div id="projecttwo" class="project">
-          <Projects name={"Jammming"} link={"https://jamming.rusanova.eu"} />
+          <Projects
+            name={"Jammming"}
+            link={"https://jamming.rusanova.eu"}
+            desc={
+              "This is the website that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account."
+            }
+          />
         </div>
 
         <div id="projecttwo" class="project">
           <Projects
             name={"Rock-Paper-Scissors Game"}
+            desc={""}
             link={"https://rsp.rusanova.eu/"}
           />
         </div>
 
         <div id="projectthree" class="project">
-          <Projects
-            name={"Adopt a pet"}
-            link={"https://pet.rusanova.eu/"}
-          />
+          <Projects name={"Adopt a pet"} link={"https://pet.rusanova.eu/"} />
         </div>
 
         <div id="projectfour" class="project">

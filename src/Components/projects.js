@@ -18,6 +18,7 @@ export function Projects (props) {
         <p class="projectname" onClick={openProject}>
           {props.name}
         </p>
+        <p id='desc'>{props.desc}</p>
       </div>
     );
   }
