@@ -95,13 +95,32 @@ function App() {
 
       <h1 class="text">Projects</h1>
       <div id="secondsection">
-        <div id="projecttwo" class="project">
-          <Projects name={"Jammming"} link={"https://jamming.rusanova.eu"} />
+        <div id="projectone" class="project">
+          <Projects
+            name={"Jammming"}
+            link={"https://jamming.rusanova.eu"}
+            desc={
+              "The website that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account."
+            }
+          />
+        </div>
+
+        <div id="projectone" className="project">
+          <Projects
+            name={"Memory Game"}
+            link={"https://memory.rusanova.eu"}
+            desc={
+              "This is a memory game. Click Start Game button and cards will be randomly mixed. To win you need to find all pairs with the same city. Good luck!"
+            }
+          />
         </div>
 
         <div id="projecttwo" class="project">
           <Projects
-            name={"Rock-Paper-Scissors Game"}
+            name={"Rock-Paper-Scissors"}
+            desc={
+              "Choose rock, paper or scissors and play against the computer."
+            }
             link={"https://rsp.rusanova.eu/"}
           />
         </div>
@@ -110,13 +129,13 @@ function App() {
           <Projects
             name={"Adopt a pet"}
             link={"https://pet.rusanova.eu/"}
+            desc={
+              "Adopt a Pet is an app, created using react-router. You can choose a pet, easily switch between pages and search a pet by name."
+            }
           />
         </div>
-
-        <div id="projectfour" class="project">
-          <Projects name={"Next project is coming"} isEmpty={true} />
-        </div>
       </div>
+      <br></br>
       <h1 class="text">Contacts</h1>
 
       <div id="iconsfooter">

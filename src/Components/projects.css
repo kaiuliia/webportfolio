@@ -16,13 +16,21 @@
 .projectname {
   position: relative;
   top: 50%;
-  margin: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
   text-align: center;
   font-weight: bolder;
   color: white;
   cursor: pointer;
 }
 
+
+
 #project:hover {
   background-color: rgb(4, 71, 71);
+   font-size: 0.9rem;
+   font-weight:300;
+
+
 }
+
