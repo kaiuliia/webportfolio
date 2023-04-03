@@ -88,13 +88,22 @@ function App() {
 
       <h1 class="text">Projects</h1>
       <div id="secondsection">
-        
         <div id="projectone" class="project">
           <Projects
             name={"Jammming"}
             link={"https://jamming.rusanova.eu"}
             desc={
               "The website that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account."
+            }
+          />
+        </div>
+
+        <div id="projectone" className="project">
+          <Projects
+            name={"Memory Game"}
+            link={"https://memory.rusanova.eu"}
+            desc={
+              "This is a memory game. Click Start Game button and cards will be randomly mixed. To win you need to find all pairs with the same city. Good luck!"
             }
           />
         </div>

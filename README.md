@@ -2,7 +2,6 @@ This is my portfolio website.
 You can check it by following link
 http://rusanova.eu
 
-
 ## Available Scripts
 
 In the project directory, you can run:
