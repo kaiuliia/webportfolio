@@ -134,6 +134,16 @@ function App() {
             }
           />
         </div>
+
+        <div id="projectfour" className="project">
+          <Projects
+            name={"Password Generator"}
+            link={"https://password.rusanova.eu"}
+            desc={
+              "Choose password length, symbols you want to use and generate your password. Strength scale will show you how strong is your password. You can copy it to the clipboard and use whenever you'd like."
+            }
+          />
+        </div>
       </div>
       <br></br>
       <h1 class="text">Contacts</h1>
