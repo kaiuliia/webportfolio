@@ -140,7 +140,7 @@ function App() {
             name={"Password Generator"}
             link={"https://password.rusanova.eu"}
             desc={
-              "Choose password length, symbols you want to use and generate your password. Strength scale will show you how strong is your password. You can copy it to the clipboard and use whenever you'd like."
+              "Choose password length, symbols you want to use and generate your password. Strength scale will show you how strong is your password."
             }
           />
         </div>
