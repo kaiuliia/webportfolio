@@ -120,16 +120,6 @@ function App() {
           />
         </div>
 
-        {/*<div id="projectthree" class="project">*/}
-        {/*  <Projects*/}
-        {/*    name={"Adopt a pet"}*/}
-        {/*    link={"https://pet.rusanova.eu/"}*/}
-        {/*    desc={*/}
-        {/*      "Adopt a Pet is an app, created using react-router. You can choose a pet, easily switch between pages and search a pet by name."*/}
-        {/*    }*/}
-        {/*  />*/}
-        {/*</div>*/}
-
         <div id="projectfour" className="project">
           <Projects
             name={"Password Generator"}
@@ -147,20 +137,14 @@ function App() {
         <a class="footer" href="https://github.com/kaiuliia/">
           <img class="icon" src={git} />
         </a>
-        <a class="footer" href="https://www.facebook.com/karjuale">
-          <img class="icon" src={fb} />
-        </a>
-        <a class="footer" href="mailto:karjuale@gmail.com">
+        <a class="footer" href="mailto:yulia.rusanov@gmail.com">
           <img class="icon" src={mail} />
         </a>
-        <a
-          class="footer"
-          href="https://www.linkedin.com/in/yulia-rusanova-627280189/"
-        >
+        <a class="footer" href="https://www.linkedin.com/in/yuliyarusanova/">
           <img class="icon" src={lkdn} />
         </a>
       </div>
-      <p class="footertext">Iuliia Rusanova ©2022</p>
+      <p class="footertext">Yuiia Rusanova ©2023</p>
     </div>
   );
 }
