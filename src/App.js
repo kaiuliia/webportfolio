@@ -25,7 +25,7 @@ function App() {
         <a class="text" onClick={() => window.location.replace("/#about")}>
           Portfolio
         </a>
-        <a class="text" href="mailto:karjuale@gmail.com">
+        <a class="text" href="mailto:yulia.rusanov@gmail.com">
           Contact
         </a>
         <a id="icon1" class="icon" href="https://github.com/kaiuliia/">
