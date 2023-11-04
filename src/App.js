@@ -31,10 +31,7 @@ function App() {
         <a id="icon1" class="icon" href="https://github.com/kaiuliia/">
           <img class="icon" src={git} />
         </a>
-        <a
-          class="icon"
-          href="https://www.linkedin.com/in/yulia-rusanova-627280189/"
-        >
+        <a class="icon" href="https://www.linkedin.com/in/yuliyarusanova/">
           <img class="icon" src={lkdn} />
         </a>
       </div>
@@ -60,22 +57,20 @@ function App() {
       <div id="firstsection">
         <div class="about">
           <p>
-            I'm Yulia - a passionate and enthusiastic frontend developer. I love
-            to create beautiful and functional websites that deliver an
-            outstanding user experience. With a background in graphic design, I
-            have an eye for detail and a keen understanding of how to craft
-            interfaces that are both visually appealing and user-friendly. I'm
-            fluent in React, JavaScript, HTML, and CSS, and I'm constantly
-            striving to improve my skills and learn new technologies. Now, I'm
-            ready to take on new challenges and grow even further as a
-            developer. I'm open to opportunities as an intern or junior
-            engineer, whether permanent or freelance. As a former stewardess, I
-            understand the importance of teamwork and communication, and I bring
-            those same values to my work as a developer.
+            I'm Yulia - a software engineer with almost 1 year of experience.
+            With a background in graphic design, I have an eye for detail and a
+            keen understanding of how to craft interfaces that are both visually
+            appealing and user-friendly.
+          </p>
+          <p>
+            I'm fluent in React, Redux, Vue js, JavaScript, TypeScript, SQL,
+            Express.js and I'm constantly striving to improve my skills and
+            learn new technologies. Open to opportunities as a junior engineer
+            to learn new technologies and strengthen skills.
           </p>
           <p>
             I have a spouse visa which allows me to work in the Netherlands
-            without restrictions. Also, I can work remotely as a self-employed.
+            without restrictions.
           </p>
           <p>
             Let's connect and see how I can help bring your projects to life!
@@ -125,15 +120,15 @@ function App() {
           />
         </div>
 
-        <div id="projectthree" class="project">
-          <Projects
-            name={"Adopt a pet"}
-            link={"https://pet.rusanova.eu/"}
-            desc={
-              "Adopt a Pet is an app, created using react-router. You can choose a pet, easily switch between pages and search a pet by name."
-            }
-          />
-        </div>
+        {/*<div id="projectthree" class="project">*/}
+        {/*  <Projects*/}
+        {/*    name={"Adopt a pet"}*/}
+        {/*    link={"https://pet.rusanova.eu/"}*/}
+        {/*    desc={*/}
+        {/*      "Adopt a Pet is an app, created using react-router. You can choose a pet, easily switch between pages and search a pet by name."*/}
+        {/*    }*/}
+        {/*  />*/}
+        {/*</div>*/}
 
         <div id="projectfour" className="project">
           <Projects
