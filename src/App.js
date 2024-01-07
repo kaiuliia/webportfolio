@@ -69,8 +69,7 @@ function App() {
             to learn new technologies and strengthen skills.
           </p>
           <p>
-            I have a spouse visa which allows me to work in the Netherlands
-            without restrictions.
+            I have a spouse visa which allows me to work in the Netherlands.
           </p>
           <p>
             Let's connect and see how I can help bring your projects to life!
