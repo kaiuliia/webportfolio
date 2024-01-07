@@ -57,9 +57,9 @@ function App() {
       <div id="firstsection">
         <div class="about">
           <p>
-            I'm Yulia - a software engineer with almost 1 year of experience.
-            With a background in graphic design, I have an eye for detail and a
-            keen understanding of how to craft interfaces that are both visually
+            I'm Yulia - a software engineer with 2 years of experience. With a
+            background in graphic design, I have an eye for detail and a keen
+            understanding of how to craft interfaces that are both visually
             appealing and user-friendly.
           </p>
           <p>
@@ -99,7 +99,15 @@ function App() {
             }
           />
         </div>
-
+        <div id="projectzero" className="project">
+          <Projects
+            name={"WellBe. Coming soon"}
+            // link={}
+            desc={
+              "This is a mental health tracker. Currently I'm working on it."
+            }
+          />
+        </div>
         <div id="projectone" className="project">
           <Projects
             name={"Memory Game"}
