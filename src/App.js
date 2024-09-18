@@ -57,22 +57,26 @@ function App() {
       <div id="firstsection">
         <div class="about">
           <p>
-            I'm Yulia - a software engineer with 2 years of experience. With a
-            background in graphic design, I have an eye for detail and a keen
+            I'm Yulia, a software developer with 2 years of experience and a
+            background in graphic design. I have an eye for details and a keen
             understanding of how to craft interfaces that are both visually
             appealing and user-friendly.
           </p>
           <p>
-            I'm fluent in React, Redux, Vue js, JavaScript, TypeScript, SQL,
-            Express.js and I'm constantly striving to improve my skills and
-            learn new technologies. Open to opportunities as a junior engineer
-            to learn new technologies and strengthen skills.
+            I gained my initial programming experience as a developer making
+            significant contributions to a customer-facing portal of a
+            sustainable energy delivery company to reach the MVP stage on a
+            target date. Currently, I'm enhancing Wellbe, my personal mental
+            health app project, to further learn new technologies and improve my
+            technical skills.
           </p>
           <p>
-            I have a spouse visa which allows me to work in the Netherlands.
+            It’s important to me to continuously learn and work on projects that
+            make a meaningful impact on people's lives.
           </p>
           <p>
-            Let's connect and see how I can help bring your projects to life!
+            I hold a residence permit that allows me to work in the Netherlands
+            and the EU. Let's connect!
           </p>
 
           <div id="skills" class="skill">
@@ -151,9 +155,11 @@ function App() {
           <img class="icon" src={lkdn} />
         </a>
       </div>
-      <p class="footertext">Yuiia Rusanova ©2023</p>
+      <p class="footertext">Yuiia Rusanova ©2024</p>
     </div>
   );
 }
 
 export default App;
+
+// todo highlith the main phrases, change cards, chage backround, add ts, zustand, redux etc, remove vs code etc / upd the year/ add gradient to desktop and change a bit desktop design
