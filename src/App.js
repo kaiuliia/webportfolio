@@ -13,149 +13,20 @@ import vs from "../src/resources/icons/vs.png";
 import node from "../src/resources/icons/node.png";
 import react from "../src/resources/icons/react.png";
 import js from "../src/resources/icons/js.png";
+import { Header } from "./Components/header";
+import { MainSection } from "./Components/mainSection";
+import { FirstSection } from "./Components/firstSection";
+import { ProjectsSection } from "./Components/projectsSection";
+import { Contacts } from "./Components/contacts";
 
 function App() {
   return (
-    <div id="body">
-      <div id="header">
-        <a class="text" onClick={() => window.location.replace("/#about")}>
-          About
-        </a>
-
-        <a class="text" onClick={() => window.location.replace("/#about")}>
-          Portfolio
-        </a>
-        <a class="text" href="mailto:yulia.rusanov@gmail.com">
-          Contact
-        </a>
-        <a id="icon1" class="icon" href="https://github.com/kaiuliia/">
-          <img class="icon" src={git} />
-        </a>
-        <a class="icon" href="https://www.linkedin.com/in/yuliyarusanova/">
-          <img class="icon" src={lkdn} />
-        </a>
-      </div>
-
-      <div id="mainsection" class="banner">
-        <div class="links">
-          <div class="firstword">
-            <Links name={"Hello"} alt={"About"} link={"/#about"} />
-          </div>
-
-          <Links name={"I am"} alt={"Projects"} link={"/#about"} />
-
-          <Links name={"Yulia"} alt={"Contacts"} link={"/#iconsfooter"} />
-        </div>
-      </div>
-
-      <h1 id="about" class="text">
-        About
-      </h1>
-      <h1 id="mobileHeader" class="text">
-        Hello, I'm Yulia!
-      </h1>
-      <div id="firstsection">
-        <div class="about">
-          <p>
-            I'm Yulia, a software developer with 2 years of experience and a
-            background in graphic design. I have an eye for details and a keen
-            understanding of how to craft interfaces that are both visually
-            appealing and user-friendly.
-          </p>
-          <p>
-            I gained my initial programming experience as a developer making
-            significant contributions to a customer-facing portal of a
-            sustainable energy delivery company to reach the MVP stage on a
-            target date. Currently, I'm enhancing Wellbe, my personal mental
-            health app project, to further learn new technologies and improve my
-            technical skills.
-          </p>
-          <p>
-            It’s important to me to continuously learn and work on projects that
-            make a meaningful impact on people's lives.
-          </p>
-          <p>
-            I hold a residence permit that allows me to work in the Netherlands
-            and the EU. Let's connect!
-          </p>
-
-          <div id="skills" class="skill">
-            <Skills name={"HTML"} icon={html} />
-            <Skills name={"CSS"} icon={css} />
-            <Skills name={"Node.js"} icon={node} />
-            <Skills name={"Java Script"} icon={js} />
-            <Skills name={"React"} icon={react} />
-            <Skills name={"Visual Studio"} icon={vs} />
-          </div>
-          <br></br>
-        </div>
-      </div>
-
-      <h1 class="text">Projects</h1>
-      <div id="secondsection">
-        <div id="projectone" class="project">
-          <Projects
-            name={"Jammming"}
-            link={"https://jamming.rusanova.eu"}
-            desc={
-              "The website that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account."
-            }
-          />
-        </div>
-        <div id="projectzero" className="project">
-          <Projects
-            name={"WellBe. Coming soon"}
-            // link={}
-            desc={
-              "This is a mental health tracker. Currently I'm working on it."
-            }
-          />
-        </div>
-        <div id="projectone" className="project">
-          <Projects
-            name={"Memory Game"}
-            link={"https://memory.rusanova.eu"}
-            desc={
-              "This is a memory game. Click Start Game button and cards will be randomly mixed. To win you need to find all pairs with the same city. Good luck!"
-            }
-          />
-        </div>
-
-        <div id="projecttwo" class="project">
-          <Projects
-            name={"Rock-Paper-Scissors"}
-            desc={
-              "Choose rock, paper or scissors and play against the computer."
-            }
-            link={"https://rsp.rusanova.eu/"}
-          />
-        </div>
-
-        <div id="projectfour" className="project">
-          <Projects
-            name={"Password Generator"}
-            link={"https://password.rusanova.eu"}
-            desc={
-              "Choose password length, symbols you want to use and generate your password. Strength scale will show you how strong is your password."
-            }
-          />
-        </div>
-      </div>
-      <br></br>
-      <h1 class="text">Contacts</h1>
-
-      <div id="iconsfooter">
-        <a class="footer" href="https://github.com/kaiuliia/">
-          <img class="icon" src={git} />
-        </a>
-        <a class="footer" href="mailto:yulia.rusanov@gmail.com">
-          <img class="icon" src={mail} />
-        </a>
-        <a class="footer" href="https://www.linkedin.com/in/yuliyarusanova/">
-          <img class="icon" src={lkdn} />
-        </a>
-      </div>
-      <p class="footertext">Yuiia Rusanova ©2024</p>
+    <div>
+      <Header />
+      <MainSection />
+      <FirstSection />
+      <ProjectsSection />
+      <Contacts />
     </div>
   );
 }

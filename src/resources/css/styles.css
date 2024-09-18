@@ -12,14 +12,14 @@ p {
   text-align: justify;
 }
 /* header */
-#body {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: black;
-  width: 100%;
-  height: auto;
-}
+/*#body {*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  background-color: black;*/
+/*  width: 100%;*/
+/*  height: auto;*/
+/*}*/
 
 #header {
   display: flex;

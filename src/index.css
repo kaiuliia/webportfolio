@@ -1,13 +1,62 @@
+/*@tailwind base;*/
+/*@tailwind components;*/
+/*@tailwind utilities;*/
+
+/*body {*/
+/*  margin: 0;*/
+/*  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',*/
+/*    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',*/
+/*    sans-serif;*/
+/*  -webkit-font-smoothing: antialiased;*/
+/*  -moz-osx-font-smoothing: grayscale;*/
+/*}*/
+
+/*code {*/
+/*  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',*/
+/*    monospace;*/
+/*}*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  width:auto;
+  /*height:auto;*/
+  overscroll-behavior-y: none;
+  padding:2rem 1rem 2rem 1rem
 }
+.paragraph {
+  font-size: 18px;
+  color:black
+}
+.link {
+  font-size: 18px;
+  color: orange;
+  text-underline: orange;
+}
+.title {
+  font-size: 60px;
+}
+html {
+  /*background-color: #232323;*/
+  /*background-image: url('/Users/iuliia/JS_Projects/well-being-frontend/src/assets/bg.png');*/
+
+  /*background-image: url('/Users/iuliia/JS_Projects/well-being-frontend/src/assets/bg8.PNG');*/
+  /*background-size:cover;*/
+  /*background-position: revert; !* Centers the background image *!*/
+  /*background-repeat: repeat; !* Ensures the image doesn't repeat *!*/
+
+}
+
+
