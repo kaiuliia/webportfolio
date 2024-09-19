@@ -12,14 +12,14 @@ p {
   text-align: justify;
 }
 /* header */
-#body {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: black;
-  width: 100%;
-  height: auto;
-}
+/*#body {*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  background-color: black;*/
+/*  width: 100%;*/
+/*  height: auto;*/
+/*}*/
 
 #header {
   display: flex;
@@ -211,7 +211,7 @@ h1 {
   margin: 3px;
 }
 #projectone {
-  background-image: url("../images/p1.jpg");
+
   color: white;
   text-align: center;
   align-items: center;
@@ -225,21 +225,9 @@ h1 {
   font-weight: bolder;
   color: white;
 }
-#projecttwo {
-  background-image: url("../images/p2.jpg");
-}
-#projectthree {
-  background-image: url("../images/p3.jpg");
-}
-#projectfour {
-  background-image: url("../images/p4.jpg");
-}
-#projectfive {
-  background-image: url("../images/p5.jpg");
-}
-#projectsix {
-  background-image: url("../images/p6.jpg");
-}
+
+
+
 
 /* Third */
 

@@ -1,36 +1,47 @@
 import React, { useState } from "react";
 import "./projects.css";
 
-export function Projects(props) {
-    const [text, setText] = useState(props.name);
+export function Projects({ name, link, desc, img, noButton }) {
+  const [text, setText] = useState(name);
 
   const openProject = () => {
-    if (props.isEmpty) {
-      return;
-    } else {
-      window.open(props.link);
-    }
-  };
-  const changeText = () => {
-    setText(props.desc);
+    window.open(link);
   };
 
-  const changeBack = () => {
-    setText(props.name);
-  };
-const linkName = text;
   return (
     <div
-      id="project"
-      class="project"
+      className={"h-fit min-h-[450px] w-auto rounded-lg bg-white text-black"}
       onClick={openProject}
-      onMouseEnter={changeText}
-      onMouseLeave={changeBack}
     >
-      <p class="projectname" onClick={openProject}>
-        {text}
-      </p>
-      {/* <p id="desc">{props.desc}</p> */}
+      <div className="w-full bg-black-500 h-[15rem]  rounded-b-none rounded-t-lg rounded-lg">
+        <div
+          className="h-[100%] bg-cover bg-center  rounded-t-lg bg-no-repeat w-full z-100"
+          style={{
+            backgroundImage: `url(${img})`,
+          }}
+        ></div>
+      </div>
+      <div className={"text-sm py-3 px-5 "}>
+        <h1 className="text-black font-medium" onClick={openProject}>
+          {name}
+        </h1>
+        <br />
+        <p>{desc}</p>
+        <br />
+        {!noButton && (
+          <button
+            onClick={openProject}
+            className="bg-transparent  hover:bg-cyan-700 text-cyan-700 font-semibold hover:text-white py-2 px-4 border border-cyan-700 hover:border-transparent rounded"
+          >
+            Open
+          </button>
+        )}
+        {noButton && (
+          <div className={"font-medium text-cyan-700"}>Coming soon</div>
+        )}
+      </div>
+
+      <br />
     </div>
   );
 }

@@ -1,12 +1,11 @@
 import React from "react";
 import "./skills.css";
 
-
 export function Skills(props) {
   return (
-    <div id="wholeskill">
-      <div id="one">
-        <img class="icon" src={props.icon} />
+    <div>
+      <div className={"flex w-8 h-8 flex-col items-center"}>
+        <img className="icon" src={props.icon} alt={""} />
         <h3>{props.name}</h3>
       </div>
     </div>
