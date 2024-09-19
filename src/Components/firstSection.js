@@ -13,10 +13,8 @@ import vs from "../resources/icons/vs.png";
 export const FirstSection = () => {
   return (
     <div className={"bg-black p-20 text-white text-pretty whitespace-normal"}>
-      <h1 className={"linksDesktop text-white text text-3xl py-5 font-medium"}>
-        About
-      </h1>
-      <div id="firstsection">
+      <h1 className={"text-white text text-3xl py-5 font-medium"}>About</h1>
+      <div id="about">
         <div className="about">
           <p>
             I'm Yulia, a software developer with{" "}
@@ -47,7 +45,7 @@ export const FirstSection = () => {
           <br />
           <div
             className={
-              "lg:flex lg:flex-row lg:justify-between pt-3 lg:px-20 grid grid-cols-3 gap-[4rem]"
+              "lg:flex lg:flex-row lg:justify-between pt-5 lg:px-20 grid grid-cols-3 gap-[4rem]"
             }
           >
             <Skills name={"React"} icon={react} />

@@ -12,7 +12,7 @@ export const MainSection = () => {
         backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 15%),linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 15%), url(${bg})`,
       }}
     >
-      <div className="linksDesktop flex flex-row pl-20 pt-20 text-white text-[8rem] font-bold">
+      <div className="linksDesktop flex flex-col pl-20 pt-20 text-white text-[8rem] font-bold">
         <Links name={"Hello"} alt={"About"} link={"/#about"} />
         <Links name={"I am"} alt={"Projects"} link={"/#about"} />
         <Links name={"Yulia"} alt={"Contacts"} link={"/#iconsfooter"} />

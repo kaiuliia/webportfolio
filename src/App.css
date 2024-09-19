@@ -1558,14 +1558,15 @@
 
 @media (max-width: 768px) {
   .mainsection {
+
     background-image: url('resources/images/bg3.jpg') !important;
     background-color: black;
     --tw-gradient-from-position: black;
   }
-
-  .linksDesktop {
+  .linksDesktop{
     display: none;
   }
+
 }
 @media (min-width: 768px) {
   .linksMobile {
