@@ -13,9 +13,9 @@ export const MainSection = () => {
       }}
     >
       <div className="linksDesktop flex flex-col pl-20 pt-20 text-white text-[8rem] font-bold">
-        <Links name={"Hello"} alt={"About"} link={"/#about"} />
-        <Links name={"I am"} alt={"Projects"} link={"/#about"} />
-        <Links name={"Yulia"} alt={"Contacts"} link={"/#iconsfooter"} />
+        <Links name={"Hello"} alt={"About"} link={"about"} />
+        <Links name={"I am"} alt={"Projects"} link={"projects"} />
+        <Links name={"Yulia"} alt={"Contacts"} link={"footer"} />
       </div>
     </div>
   );

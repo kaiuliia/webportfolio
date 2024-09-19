@@ -2,21 +2,25 @@ import git from "../resources/icons/git.png";
 import lkdn from "../resources/icons/lkdn.png";
 
 export const Header = () => {
+  const handleScroll = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div
       className={
         "text-white w-full flex flex-row h-[2rem] bg-black items-center p-10 justify-end gap-5"
       }
     >
-      <div
-        className={"cursor-pointer"}
-        onClick={() => window.location.replace("/#about")}
-      >
+      <div className={"cursor-pointer"} onClick={() => handleScroll("about")}>
         About
       </div>
       <div
         className={"cursor-pointer"}
-        onClick={() => window.location.replace("/#about")}
+        onClick={() => handleScroll("projects")}
       >
         Portfolio
       </div>

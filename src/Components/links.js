@@ -12,8 +12,11 @@ export function Links(props) {
     setText(props.name);
   };
 
-  const openLink = () => {
-    window.location.replace(props.link);
+  const handleScroll = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
@@ -21,7 +24,7 @@ export function Links(props) {
       id="old"
       onMouseEnter={changeText}
       onMouseLeave={changeBack}
-      onClick={openLink}
+      onClick={() => handleScroll(props.link)}
     >
       <h1 id="link">{text} </h1>
     </a>

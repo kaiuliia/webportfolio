@@ -5,26 +5,13 @@ export function Projects({ name, link, desc, img, noButton }) {
   const [text, setText] = useState(name);
 
   const openProject = () => {
-    if (noButton) {
-      return;
-    } else {
-      window.open(link);
-    }
-  };
-  const changeText = () => {
-    setText(desc);
+    window.open(link);
   };
 
-  const changeBack = () => {
-    setText(name);
-  };
-  const linkName = text;
   return (
     <div
       className={"h-fit min-h-[450px] w-auto rounded-lg bg-white text-black"}
       onClick={openProject}
-      // onMouseEnter={changeText}
-      // onMouseLeave={changeBack}
     >
       <div className="w-full bg-black-500 h-[15rem]  rounded-b-none rounded-t-lg rounded-lg">
         <div
