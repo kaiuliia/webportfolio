@@ -12,7 +12,7 @@ import vs from "../resources/icons/vs.png";
 
 export const FirstSection = () => {
   return (
-    <div className={"bg-black p-20 text-white text-pretty whitespace-normal"}>
+    <div className={"bg-black px-20 text-white text-pretty whitespace-normal"}>
       <h1 className={"text-white text text-3xl py-5 font-medium"}>About</h1>
       <div id="about">
         <div className="about">
