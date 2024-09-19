@@ -21,14 +21,14 @@ export function Projects({ name, link, desc, img, noButton }) {
   const linkName = text;
   return (
     <div
-      className={"h-[25rem] lg:w-[23rem] w-full rounded-lg bg-white text-black"}
+      className={"h-fit min-h-[450px] w-auto rounded-lg bg-white text-black"}
       onClick={openProject}
       // onMouseEnter={changeText}
       // onMouseLeave={changeBack}
     >
-      <div className="w-full bg-black-500  h-[12rem] rounded-b-none rounded-t-lg rounded-lg">
+      <div className="w-full bg-black-500 h-[15rem]  rounded-b-none rounded-t-lg rounded-lg">
         <div
-          className="h-full bg-cover rounded-t-lg bg-no-repeat w-full z-100"
+          className="h-[100%] bg-cover bg-center  rounded-t-lg bg-no-repeat w-full z-100"
           style={{
             backgroundImage: `url(${img})`,
           }}
