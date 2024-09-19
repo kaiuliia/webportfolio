@@ -1,7 +1,5 @@
-import git from "../resources/icons/git.png";
-import lkdn from "../resources/icons/lkdn.png";
 import bg from "../resources/icons/bg.jpg";
-// import bg from "../resources/icons/bg.jpg";
+
 import { Links } from "./links";
 
 export const MainSection = () => {

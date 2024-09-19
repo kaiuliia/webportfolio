@@ -1,11 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./projects.css";
 
 export function Projects({ name, link, desc, img, noButton }) {
-  const [text, setText] = useState(name);
-
   const openProject = () => {
-    window.open(link);
+    !noButton && window.open(link);
   };
 
   return (

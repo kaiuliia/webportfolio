@@ -11,15 +11,6 @@ p {
   line-height: 1.5em;
   text-align: justify;
 }
-/* header */
-/*#body {*/
-/*  position: absolute;*/
-/*  top: 0;*/
-/*  left: 0;*/
-/*  background-color: black;*/
-/*  width: 100%;*/
-/*  height: auto;*/
-/*}*/
 
 #header {
   display: flex;
@@ -55,12 +46,6 @@ a > img {
 /* main */
 
 #mainsection {
-  /* display: flex;
-  position: absolute;
-  top: 85px;
-  left: 0;
-*/
-
   width: 100%;
   background-color: black;
   height: 100%;
@@ -96,23 +81,6 @@ h1:hover {
 
   position: absolute;
 }
-.firstword {
-}
-/*
-.old .new {
-  transition: opacity 0.5s linear;
-}
-.links:hover .old {
-    opacity: 0;
-}
-.links:hover .new {
-    opacity: 1;
-}
-*/
-/* Pages */
-
-/* First */
-
 #firstsection {
   display: flex;
   justify-content: space-between;
@@ -225,10 +193,6 @@ h1 {
   font-weight: bolder;
   color: white;
 }
-
-
-
-
 /* Third */
 
 .smalltext {
@@ -295,8 +259,6 @@ h1 {
 
     min-height: 500px;
     max-height: fit-content;
-    /* position: absolute;
-    top: 60px;*/
   }
 
   #header {

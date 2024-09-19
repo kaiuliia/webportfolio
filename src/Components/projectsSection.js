@@ -3,7 +3,6 @@ import jam from "../resources/images/jam.png";
 import wellbe from "../resources/images/wellbe.png";
 import memory from "../resources/images/memory.png";
 import password from "../resources/images/password.png";
-import bg from "../resources/icons/bg.jpg";
 
 export const ProjectsSection = () => {
   return (

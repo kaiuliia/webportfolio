@@ -1,6 +1,3 @@
-import git from "../resources/icons/git.png";
-import lkdn from "../resources/icons/lkdn.png";
-import { Links } from "./links";
 import { Skills } from "./skills";
 import html from "../resources/icons/html.png";
 import css from "../resources/icons/css.png";
@@ -8,7 +5,6 @@ import node from "../resources/icons/node.png";
 import js from "../resources/icons/js.png";
 import ts from "../resources/icons/ts.png";
 import react from "../resources/icons/react.png";
-import vs from "../resources/icons/vs.png";
 
 export const FirstSection = () => {
   return (
