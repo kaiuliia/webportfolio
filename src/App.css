@@ -1553,13 +1553,27 @@
   /*color: white;*/
 }
 
-.App-link {
-  /*color: #61dafb;*/
-}
+
+
+
 @media (max-width: 768px) {
   .mainsection {
     background-image: url('resources/images/bg3.jpg') !important;
+    background-color: black;
+    --tw-gradient-from-position: black;
   }
+
+  .linksDesktop {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .linksMobile {
+    display: none;
+  }
+}
+span {
+  color: #00ffff;
 }
 @-webkit-keyframes App-logo-spin {
   from {

@@ -16,7 +16,6 @@ export function Links(props) {
     window.location.replace(props.link);
   };
 
-  const linkName = text;
   return (
     <a
       id="old"
