@@ -1,14 +1,7 @@
-import git from "../resources/icons/git.png";
-import lkdn from "../resources/icons/lkdn.png";
-import { Links } from "./links";
 import { Projects } from "./projects";
-import { Skills } from "./skills";
-import react from "../resources/icons/react.png";
-import ts from "../resources/icons/ts.png";
-import js from "../resources/icons/js.png";
-import html from "../resources/icons/html.png";
-import css from "../resources/icons/css.png";
-import node from "../resources/icons/node.png";
+import jam from "../resources/images/jam.png";
+import wellbe from "../resources/images/wellbe.png";
+import bg from "../resources/icons/bg.jpg";
 
 export const ProjectsSection = () => {
   return (
@@ -25,96 +18,18 @@ export const ProjectsSection = () => {
           desc={
             "The website that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account."
           }
+          img={jam}
         />
-
-        <div className="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
-          <a href="#!">
-            <img
-              className="rounded-t-lg"
-              src="https://tecdn.b-cdn.net/img/new/standard/city/041.webp"
-              alt="Hollywood Sign on The Hill"
-            />
-          </a>
-          <div className="p-6">
-            <h5 className="mb-2 text-xl font-medium leading-tight">
-              Card title
-            </h5>
-            <p className="mb-4 text-base">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-          </div>
-        </div>
-
-        <div className="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
-          <a href="#!">
-            <img
-              className="rounded-t-lg"
-              src="https://tecdn.b-cdn.net/img/new/standard/city/042.webp"
-              alt="Palm Springs Road"
-            />
-          </a>
-          <div className="p-6">
-            <h5 className="mb-2 text-xl font-medium leading-tight">
-              Card title
-            </h5>
-            <p className="mb-4 text-base">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-          </div>
-        </div>
-
-        <div className="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
-          <a href="#!">
-            <img
-              className="rounded-t-lg"
-              src="https://tecdn.b-cdn.net/img/new/standard/city/044.webp"
-              alt="Skyscrapers"
-            />
-          </a>
-          <div className="p-6">
-            <h5 className="mb-2 text-xl font-medium leading-tight">
-              Card title
-            </h5>
-            <p className="mb-4 text-base">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content.
-            </p>
-          </div>
-        </div>
-
-        <div className="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
-          <a href="#!">
-            <img
-              className="rounded-t-lg"
-              src="https://tecdn.b-cdn.net/img/new/standard/city/043.webp"
-              alt="Los Angeles Skyscrapers"
-            />
-          </a>
-          <div className="p-6">
-            <h5 className="mb-2 text-xl font-medium leading-tight">
-              Card title
-            </h5>
-            <p className="mb-4 text-base">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-          </div>
-        </div>
+        <Projects
+          name={"WellBe"}
+          link={""}
+          desc={
+            "The mental health tracker. Fill in how do you feel today and receive advices how to improve your sleep, anxiety or mood in general"
+          }
+          noButton={true}
+          img={wellbe}
+        />
       </div>
-      {/*<div id="projects">*/}
-      {/*  <Projects*/}
-      {/*    name={"Jammming"}*/}
-      {/*    link={"https://jamming.rusanova.eu"}*/}
-      {/*    desc={*/}
-      {/*      "The website that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account."*/}
-      {/*    }*/}
-      {/*  />*/}
-      {/*</div>*/}
     </div>
 
     // <div className={"bg-black"}>

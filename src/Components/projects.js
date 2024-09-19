@@ -1,47 +1,57 @@
 import React, { useState } from "react";
 import "./projects.css";
 
-export function Projects(props) {
-  const [text, setText] = useState(props.name);
+export function Projects({ name, link, desc, img, noButton }) {
+  const [text, setText] = useState(name);
 
   const openProject = () => {
-    if (props.isEmpty) {
+    if (noButton) {
       return;
     } else {
-      window.open(props.link);
+      window.open(link);
     }
   };
   const changeText = () => {
-    setText(props.desc);
+    setText(desc);
   };
 
   const changeBack = () => {
-    setText(props.name);
+    setText(name);
   };
   const linkName = text;
   return (
     <div
-      className={"h-[25rem] w-[23rem] rounded-lg bg-white text-black"}
+      className={"h-[25rem] lg:w-[23rem] w-full rounded-lg bg-white text-black"}
       onClick={openProject}
       // onMouseEnter={changeText}
       // onMouseLeave={changeBack}
     >
-      <div class=" w-full bg-green-500  h-[12rem] rounded-b-none rounded-lg">
-        <div></div>
+      <div className="w-full bg-black-500  h-[12rem] rounded-b-none rounded-t-lg rounded-lg">
+        <div
+          className="h-full bg-cover rounded-t-lg bg-no-repeat w-full z-100"
+          style={{
+            backgroundImage: `url(${img})`,
+          }}
+        ></div>
       </div>
-      <div className={"text-sm py-3 pl-5 "}>
+      <div className={"text-sm py-3 px-5 "}>
         <h1 className="text-black font-medium" onClick={openProject}>
-          {props.name}
+          {name}
         </h1>
         <br />
-        <p>{props.desc}</p>
+        <p>{desc}</p>
         <br />
-        <button
-          onClick={openProject}
-          className="bg-transparent  hover:bg-cyan-700 text-cyan-700 font-semibold hover:text-white py-2 px-4 border border-cyan-700 hover:border-transparent rounded"
-        >
-          Open
-        </button>
+        {!noButton && (
+          <button
+            onClick={openProject}
+            className="bg-transparent  hover:bg-cyan-700 text-cyan-700 font-semibold hover:text-white py-2 px-4 border border-cyan-700 hover:border-transparent rounded"
+          >
+            Open
+          </button>
+        )}
+        {noButton && (
+          <div className={"font-medium text-cyan-700"}>Coming soon</div>
+        )}
       </div>
 
       <br />
