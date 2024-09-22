@@ -20,10 +20,11 @@ export const ProjectsSection = () => {
       <div className="grid gap-10 md:grid-cols-2 w-auto">
         <Projects
           name={"WellBe"}
-          link={"https://wellbeing.rusanova.eu/register"}
+          // link={"https://wellbeing.rusanova.eu/register"}
           desc={
             "The mental health tracker. Fill in how do you feel today and receive advices how to improve your sleep, anxiety or mood in general"
           }
+          noButton={true}
           img={wellbe}
         />
 
