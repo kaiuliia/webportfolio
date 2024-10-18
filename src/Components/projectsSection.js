@@ -28,14 +28,14 @@ export const ProjectsSection = () => {
           img={wellbe}
         />
 
-        <Projects
-          name={"Jammming"}
-          link={"https://jamming.rusanova.eu"}
-          desc={
-            "The website that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account."
-          }
-          img={jam}
-        />
+        {/*<Projects*/}
+        {/*  name={"Jammming"}*/}
+        {/*  link={"https://jamming.rusanova.eu"}*/}
+        {/*  desc={*/}
+        {/*    "The website that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account."*/}
+        {/*  }*/}
+        {/*  img={jam}*/}
+        {/*/>*/}
 
         <Projects
           name={"Memory game"}
